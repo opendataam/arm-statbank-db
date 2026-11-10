@@ -59,3 +59,11 @@ def test_docs_catalog(snapshot, tmp_path):
     assert {p.parent.name for p in written} == {"en", "hy", "ru"}
     ru = (tmp_path / "docs" / "ru" / "catalog.md").read_text(encoding="utf-8")
     assert "Поголовье скота по марзам, видам и годам" in ru and "`AF-1`" in ru
+
+
+def test_release_assets(snapshot):
+    from armstat_db.release import make_release
+
+    build_database(snapshot)
+    names = [p.name for p in make_release(snapshot)]
+    assert names == ["armstat.duckdb", "armstat-parquet.zip", "SHA256SUMS"]

@@ -13,6 +13,25 @@ Committee of the Republic of Armenia (Armstat).
 * one normalised schema for all tables, time periods parsed, missing-value symbols kept;
 * reproducible build from open sources, with a versioned translation memory.
 
+## Download
+
+The ready-made database is published in [Releases](https://github.com/opendataam/arm-statbank-db/releases/latest):
+
+| File | Content |
+|---|---|
+| `armstat.duckdb` | DuckDB database (~31 MB) |
+| `armstat-parquet.zip` | The same data as Parquet files; `IMPORT DATABASE 'armstat-parquet'` recreates it |
+| `SHA256SUMS` | Checksums |
+
+DuckDB can also query it without downloading:
+
+```sql
+INSTALL httpfs; LOAD httpfs;
+ATTACH 'https://github.com/opendataam/arm-statbank-db/releases/latest/download/armstat.duckdb' AS armstat (READ_ONLY);
+USE armstat;
+SELECT table_id, title_en FROM catalog LIMIT 5;
+```
+
 ## Quick start
 
 ```bash
@@ -70,6 +89,7 @@ data/translations/*.jsonl (translation memory) ─┘
 | `armstat-db build` | Build `build/armstat.duckdb` |
 | `armstat-db validate` | Consistency checks and translation coverage |
 | `armstat-db qa` | Report label inconsistencies between Armstat's language versions |
+| `armstat-db release` | Prepare release assets in `build/release` |
 | `armstat-db docs` | Regenerate `docs/*/catalog.md` |
 | `armstat-db export TABLE --lang ru -o file.csv` | Export one table with labels (CSV/Parquet) |
 

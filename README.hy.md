@@ -15,6 +15,25 @@
   բացակայող արժեքների պայմանական նշանները պահպանված են․
 * վերարտադրելի կառուցում բաց աղբյուրներից՝ տարբերակավորված թարգմանությունների հիշողությամբ։
 
+## Ներբեռնում
+
+Պատրաստի տվյալների բազան հրապարակվում է [թողարկումներում](https://github.com/opendataam/arm-statbank-db/releases/latest)՝
+
+| Ֆայլ | Բովանդակություն |
+|---|---|
+| `armstat.duckdb` | DuckDB տվյալների բազա (~31 ՄԲ) |
+| `armstat-parquet.zip` | Նույն տվյալները Parquet ձևաչափով․ `IMPORT DATABASE 'armstat-parquet'`-ը վերստեղծում է բազան |
+| `SHA256SUMS` | Ստուգիչ գումարներ |
+
+DuckDB-ն կարող է հարցումներ կատարել նաև առանց ներբեռնելու՝
+
+```sql
+INSTALL httpfs; LOAD httpfs;
+ATTACH 'https://github.com/opendataam/arm-statbank-db/releases/latest/download/armstat.duckdb' AS armstat (READ_ONLY);
+USE armstat;
+SELECT table_id, title_en FROM catalog LIMIT 5;
+```
+
 ## Արագ մեկնարկ
 
 ```bash
@@ -73,6 +92,7 @@ data/translations/*.jsonl (translation memory) ─┘
 | `armstat-db build` | Կառուցում է `build/armstat.duckdb` ֆայլը |
 | `armstat-db validate` | Համաձայնեցվածության ստուգումներ և թարգմանությունների ծածկույթ |
 | `armstat-db qa` | Հաշվետվություն է տալիս Armstat-ի լեզվական տարբերակների միջև անվանումների անհամապատասխանությունների մասին |
+| `armstat-db release` | Պատրաստում է թողարկման ֆայլերը `build/release`-ում |
 | `armstat-db docs` | Նորից ստեղծում է `docs/*/catalog.md` ֆայլերը |
 | `armstat-db export TABLE --lang ru -o file.csv` | Արտահանում է մեկ աղյուսակ՝ անվանումներով (CSV/Parquet) |
 

@@ -24,5 +24,6 @@ All notable changes to this project are documented here. The format follows
   `hy→ru` entries override `en→ru` where Armstat's English is ambiguous.
 - Export overrides: 9 tables re-downloaded from the English API (`IC-co-1-2024`, whose
   statbank-parser export is faulty, and 8 tables updated by Armstat after the parser run).
+- `armstat-db release`: database file, Parquet bundle and checksums for GitHub releases.
 - Documentation in English, Armenian and Russian; generated table catalogue.
 - Test suite with a synthetic snapshot; GitHub Actions workflow.

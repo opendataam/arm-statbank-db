@@ -103,6 +103,12 @@ translation memory (data/translations) ────┘                  │
 
 ## Публикация релиза
 
-Файл базы данных не хранится в репозитории (каталог `build/` игнорируется). Опубликуйте
-`build/armstat.duckdb` как файл релиза (или на data.opendata.am) вместе со значениями
-`build_info` и закоммитьте обновленные файлы в `data/` и `docs/`.
+Файл базы данных не хранится в репозитории (каталог `build/` игнорируется). После сборки:
+
+```bash
+armstat-db release        # build/release: armstat.duckdb, armstat-parquet.zip, SHA256SUMS
+gh release create vX.Y.Z build/release/* --title "…" --notes-file NOTES.md
+```
+
+Предварительно закоммитьте обновленные файлы в `data/` и `docs/` и обновите
+`CHANGELOG.md`; тег релиза должен указывать на коммит, из которого собрана база.

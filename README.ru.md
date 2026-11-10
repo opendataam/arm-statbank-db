@@ -13,6 +13,25 @@
 * единая нормализованная схема для всех таблиц, временные периоды разобраны, символы пропущенных значений сохранены;
 * воспроизводимая сборка из открытых источников с версионируемой памятью переводов.
 
+## Скачать
+
+Готовая база данных публикуется в [релизах](https://github.com/opendataam/arm-statbank-db/releases/latest):
+
+| Файл | Содержимое |
+|---|---|
+| `armstat.duckdb` | База данных DuckDB (~31 МБ) |
+| `armstat-parquet.zip` | Те же данные в Parquet; `IMPORT DATABASE 'armstat-parquet'` воссоздает базу |
+| `SHA256SUMS` | Контрольные суммы |
+
+DuckDB может обращаться к ней и без скачивания:
+
+```sql
+INSTALL httpfs; LOAD httpfs;
+ATTACH 'https://github.com/opendataam/arm-statbank-db/releases/latest/download/armstat.duckdb' AS armstat (READ_ONLY);
+USE armstat;
+SELECT table_id, title_en FROM catalog LIMIT 5;
+```
+
 ## Быстрый старт
 
 ```bash
@@ -71,6 +90,7 @@ data/translations/*.jsonl (translation memory) ─┘
 | `armstat-db build` | Собрать `build/armstat.duckdb` |
 | `armstat-db validate` | Проверки согласованности и покрытие переводами |
 | `armstat-db qa` | Вывести отчет о несогласованных подписях в языковых версиях Армстата |
+| `armstat-db release` | Подготовить файлы релиза в `build/release` |
 | `armstat-db docs` | Заново сгенерировать `docs/*/catalog.md` |
 | `armstat-db export TABLE --lang ru -o file.csv` | Выгрузить одну таблицу с подписями (CSV/Parquet) |
 

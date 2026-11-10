@@ -126,6 +126,14 @@ def cmd_docs(args) -> int:
     return 0
 
 
+def cmd_release(args) -> int:
+    from .release import make_release
+
+    for path in make_release(_paths(args)):
+        print(path)
+    return 0
+
+
 def cmd_export(args) -> int:
     from .export import export_table
 
@@ -211,6 +219,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     s = sub.add_parser("docs", help="regenerate the data catalog pages in docs/")
     s.set_defaults(func=cmd_docs)
+
+    s = sub.add_parser("release", help="prepare release assets in build/release")
+    s.set_defaults(func=cmd_release)
 
     s = sub.add_parser("export", help="export one table as CSV/Parquet with labels")
     s.add_argument("table", help="table_id, e.g. EF-cpi-mi1")

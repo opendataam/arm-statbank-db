@@ -105,7 +105,12 @@ translation memory (data/translations) ────┘                  │
 
 ## Թողարկում
 
-Տվյալների բազայի ֆայլը commit չի արվում (`build/` թղթապանակն անտեսվում է)։ Հրապարակեք
-`build/armstat.duckdb`-ը որպես թողարկման ֆայլ (release asset) (կամ data.opendata.am
-կայքում)՝ `build_info`-ի արժեքների հետ միասին, և commit արեք թարմացված `data/` և `docs/`
-ֆայլերը։
+Տվյալների բազայի ֆայլը commit չի արվում (`build/` թղթապանակն անտեսվում է)։ Կառուցումից հետո՝
+
+```bash
+armstat-db release        # build/release: armstat.duckdb, armstat-parquet.zip, SHA256SUMS
+gh release create vX.Y.Z build/release/* --title "…" --notes-file NOTES.md
+```
+
+Նախապես commit արեք թարմացված `data/` և `docs/` ֆայլերը և թարմացրեք `CHANGELOG.md`-ը․
+թողարկման tag-ը պետք է ցույց տա այն commit-ը, որից կառուցվել է բազան։

@@ -100,6 +100,12 @@ coverage. `ERROR` lines make the command exit with status 1.
 
 ## Releasing
 
-The database file is not committed (`build/` is ignored). Publish
-`build/armstat.duckdb` as a release asset (or on data.opendata.am) together with the
-`build_info` values, and commit the updated `data/` and `docs/` files.
+The database file is not committed (`build/` is ignored). After a build:
+
+```bash
+armstat-db release        # build/release: armstat.duckdb, armstat-parquet.zip, SHA256SUMS
+gh release create vX.Y.Z build/release/* --title "…" --notes-file NOTES.md
+```
+
+Commit the updated `data/` and `docs/` files and update `CHANGELOG.md` first; the
+release tag should point at the commit the database was built from.
