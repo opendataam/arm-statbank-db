@@ -1,0 +1,189 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2410-si-ndp/ps-si-ndp05.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:39:16+00:00",
+ "metadata": {
+  "title": "Խնամյալների թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Խնամյալների թվաքանակը, ընդամենը",
+     "Խնամյալների թվաքանակը, կանայք"
+    ]
+   },
+   {
+    "code": "age groups",
+    "text": "տարիքային խմբերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "Մինչև 30 տարեկան",
+     "31 - 50 տարեկան",
+     "51 - 70 տարեկան",
+     "71 և բարձր",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Խնամյալների թվաքանակն , ըստ ցուցանիշների, տարիքային խմբերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "age groups",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Խնամյալների թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Խնամյալների թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "age groups": {
+    "label": "տարիքային խմբերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մինչև 30 տարեկան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Խնամյալների թվաքանակն",
+    "description": "Խնամյալների թվաքանակն ըստ ցուցանիշների, տարիքային խմբերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "age groups"
+    ],
+    "matrix": "ps-si-ndp05",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

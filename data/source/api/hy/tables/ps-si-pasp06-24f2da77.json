@@ -1,0 +1,175 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2405-si-pasp/ps-si-pasp06.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:37:14+00:00",
+ "metadata": {
+  "title": "Աշխատանքային կենսաթոշակի միջին չափն",
+  "variables": [
+   {
+    "code": "type of pension",
+    "text": "ըստ կենսաթոշակի տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     " տարիքային",
+     " արտոնյալ պայմաններով",
+     " երկարամյա ծառայության",
+     " մասնակի",
+     " հաշմանդամության",
+     "    աշխատանքային խեղման հետևանքով",
+     "    մասնագիտական հիվանդության հետևանքով",
+     "    ընդհանուր հիվանդության հետևանքով",
+     "  I խումբ",
+     "  II խումբ",
+     "  III խումբ",
+     " կերակրողին կորցնելու դեպքում",
+     "   մեկ կերակրողին",
+     "   երկու կերակրողին",
+     "Կենսաթոշակառուների ընդհանուր թվաքանակից` հայոց ցեղասպանությունը վերապրած"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Աշխատանքային կենսաթոշակի միջին չափն , ըստ կենսաթոշակի տեսակի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "type of pension",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Աշխատանքային կենսաթոշակի միջին չափն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "դրամ",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "type of pension": {
+    "label": "ըստ կենսաթոշակի տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2014"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Աշխատանքային կենսաթոշակի միջին չափն",
+    "description": "Աշխատանքային կենսաթոշակի միջին չափն ըստ կենսաթոշակի տեսակի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "type of pension"
+    ],
+    "matrix": "ps-si-pasp06",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "api_path": "2 Population and social processes/26 Housing/265 Gaz/PS-hs-gs07.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:41:38+00:00",
+ "metadata": {
+  "title": "Հեղուկ գազի իրացման ծավալն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Հեղուկ գազի իրացման ծավալը, ընդամենը",
+     "     այդ թվում՝ քաղաքային բնակավայրերում",
+     "                      գյուղական բնակավայրերում"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "ք.Երևան",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13"
+    ],
+    "valueTexts": [
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Հեղուկ գազի իրացման ծավալն , ըստ ցուցանիշների, ըստ մարզերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "marzes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Հեղուկ գազի իրացման ծավալն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "տոննա",
+       "decimals": 3
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հեղուկ գազի իրացման ծավալը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ք.Երևան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2012"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Հեղուկ գազի իրացման ծավալն",
+    "description": "Հեղուկ գազի իրացման ծավալն ըստ ցուցանիշների, մարզերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "marzes"
+    ],
+    "matrix": "ps-hsgs07",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

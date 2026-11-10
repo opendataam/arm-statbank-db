@@ -1,0 +1,145 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2401-si-hms/ps-si-hms35.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:36:04+00:00",
+ "metadata": {
+  "title": "Բնակչության ապահովվածությունը միջին բուժանձնակազմով 2016-2020թթ.",
+  "variables": [
+   {
+    "code": "groups of specialities",
+    "text": "ըստ առանձին մասնագիտությունների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Բուժակներ",
+     "Մանկաբարձներ",
+     "Բուժքույրեր",
+     "Ռենտգեն լաբորանտներ, ռենտգեն տեխնիկներ",
+     "Լաբորանտներ",
+     "Ատամնատեխնիկներ",
+     "Այլ",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Բնակչության ապահովվածությունը միջին բուժանձնակազմով 2016-2020թթ. , ըստ առանձին մասնագիտությունների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "groups of specialities",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Բնակչության ապահովվածությունը միջին բուժանձնակազմով 2016-2020թթ."
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "groups of specialities": {
+    "label": "ըստ առանձին մասնագիտությունների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Բուժակներ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2016"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Բնակչության ապահովվածությունը միջին բուժանձնակազմով 2016-2020թթ.",
+    "description": "Բնակչության ապահովվածությունը միջին բուժանձնակազմով ըստ առանձին մասնագիտությունների և տարիների 2016-2020թթ.",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "groups of specialities"
+    ],
+    "matrix": "ps-si-hms35",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

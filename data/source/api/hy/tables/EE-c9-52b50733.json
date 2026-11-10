@@ -1,0 +1,192 @@
+{
+ "api_path": "8 Environment/(C) Water resources/EE-c9.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:50:14+00:00",
+ "metadata": {
+  "title": "(C9) Խմելու ջրի որակն",
+  "variables": [
+   {
+    "code": "type of water supply",
+    "text": "ըստ ջրամատակարարման տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Կենտրոնացված ջրամատակարարում",
+     "Կենտրոնացված ջրամատակարարումից՝ առանձնացված գյուղական/համայնքային",
+     "Տեղական (լոկալ) ջրամատակարարում"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   },
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "Սանիտարաքիմիական հետազոտության ենթարկված նմուշների ընդհանուր քանակը",
+     "Սանիտարաքիմիական սահմանված նորմերին չհամապատասխանող  նմուշների քանակը",
+     "Մանրէաբանական հետազոտության ենթարկված նմուշների ընդհանուր քանակը",
+     "Մանրէաբանական  սահմանված նորմերին չհամապատասխանող  նմուշների քանակը",
+     "Սանիտարաքիմիական և մանրէաբանական սահմանված նորմերին միաժամանակ չհամապատասխանող նմուշների քանակը"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "(C9) Խմելու ջրի որակն , ըստ ջրամատակարարման տեսակի, ըստ տարիների և ըստ ցուցանիշների",
+  "source": "Առողջապահության ազգային ինստիտուտ",
+  "updated": "2020-02-28T12:12:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "type of water supply",
+   "years",
+   "indicators"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "(C9) Խմելու ջրի որակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "type of water supply": {
+    "label": "ըստ ջրամատակարարման տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Կենտրոնացված ջրամատակարարում"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Սանիտարաքիմիական հետազոտության ենթարկված նմուշների ընդհանուր քանակը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "(C9) Խմելու ջրի որակն",
+    "description": "(C9) Խմելու ջրի որակն ըստ ջրամատակարարման տեսակի, տարիների և ցուցանիշների",
+    "descriptiondefault": false,
+    "heading": [
+     "indicators"
+    ],
+    "stub": [
+     "type of water supply",
+     "years"
+    ],
+    "matrix": "EE-c9",
+    "subject-code": "EE",
+    "subject-area": "Շրջակա միջավայր"
+   }
+  }
+ }
+}

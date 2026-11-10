@@ -1,0 +1,161 @@
+{
+ "api_path": "4 Transport and tourism/42 Communication/TT-com-1.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:47:22+00:00",
+ "metadata": {
+  "title": "Ուղարկված հեռագրերի քանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Ուղարկված հեռագրերի քանակը, ընդամենը",
+     "Ուղարկված հեռագրերի քանակը - այդ թվում՝ ներհանրապետական",
+     "Ուղարկված հեռագրերի քանակը - այդ թվում՝ միջազգային"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17"
+    ],
+    "valueTexts": [
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Ուղարկված հեռագրերի քանակն , ըստ ցուցանիշների և ըստ տարիների",
+  "updated": "2021-09-10T04:00:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Ուղարկված հեռագրերի քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "հազ.հատ",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ուղարկված հեռագրերի քանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2007"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Ուղարկված հեռագրերի քանակն",
+    "description": "Ուղարկված հեռագրերի քանակն ըստ ցուցանիշների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators"
+    ],
+    "matrix": "TT-com-1",
+    "subject-code": "TT",
+    "subject-area": "Տրանսպորտ և զբոսաշրջություն"
+   }
+  }
+ }
+}

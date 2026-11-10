@@ -1,0 +1,197 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2403-si-nrdp/ps-si-nrdp06.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:36:34+00:00",
+ "metadata": {
+  "title": "Վերականգնողական միջոցառումների քանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Հաշվառված հաշմանդամներին, ընդամենը",
+     "Հաշվառված հաշմանդամներին, կանայք",
+     "  դրանցից՝ հաշմանդամ երեխաներին, ընդամենը",
+     "  դրանցից՝ հաշմանդամ երեխաներին, աղջիկներ",
+     "Առաջին անգամ հաշմանդամ ճանաչված հաշմանդամներին, ընդամենը",
+     "Առաջին անգամ հաշմանդամ ճանաչված հաշմանդամներն, կանայք",
+     "  դրանցից՝ առաջին անգամ հաշմանդամ ճանաչված հաշմանդամ երեխաներին, ընդամենը",
+     "  դրանցից՝ առաջին անգամ հաշմանդամ ճանաչված հաշմանդամ երեխաներին, աղջիկներ"
+    ]
+   },
+   {
+    "code": "types of recovery",
+    "text": "ըստ տեսակների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "Բժշկական վերականգնում",
+     "Մասնագիտական վերականգնում",
+     "Սոցիալական վերականգնում",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13"
+    ],
+    "valueTexts": [
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Վերականգնողական միջոցառումների քանակն , ըստ ցուցանիշների, ըստ տեսակների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "types of recovery",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Վերականգնողական միջոցառումների քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հաշվառված հաշմանդամներին, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "types of recovery": {
+    "label": "ըստ տեսակների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Բժշկական վերականգնում"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2011"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Վերականգնողական միջոցառումների քանակն",
+    "description": "Վերականգնողական միջոցառումների քանակն ըստ ցուցանիշների, տեսակների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "types of recovery"
+    ],
+    "matrix": "ps-si-nrdp06",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

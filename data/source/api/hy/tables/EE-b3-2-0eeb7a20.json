@@ -1,0 +1,163 @@
+{
+ "api_path": "8 Environment/(B) Climate change/(B3) Greenhouse gas emissions/EE-b3-2.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:49:15+00:00",
+ "metadata": {
+  "title": "Ջերմոցային գազերի արտանետումները, (Կտ CO2 համ.)*",
+  "variables": [
+   {
+    "code": "sectors",
+    "text": "ըստ ոլորտների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Էներգետիկա",
+     "Արդյունաբերական գործընթացներ և արտադրանքի օգտագործում",
+     "Գյուղատնտեսություն",
+     " Թափոններ",
+     "Ընդամենը արտանետումներ",
+     "Հողօգտագործում, հողօգտագործման փոփոխություն և անտառային տնտեսություն)",
+     "ՋԳ զուտ արտանետումներ",
+     "Զուտ արտանետումները $ 1000 (ԳՀ` գնողունակության հնարավորություն, 2021թ) ՀՆԱ -ի հաշվով, տ/ $1000"
+    ]
+   },
+   {
+    "code": "years*",
+    "text": "ըստ տարիների*",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "1990",
+     "2000",
+     "2005",
+     "2010",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Ջերմոցային գազերի արտանետումները, (Կտ CO2 համ.)* , ըստ ոլորտների և ըստ տարիների*",
+  "source": "<a href='http://www.mnp.am/?p=169' >ՀՀ ՇՄՆ</a>",
+  "updated": "2014-04-28T11:08:00Z",
+  "note": [
+   "* Աղբյուրը հանդիսանում է Շրջակա միջավայրի նախարարության կողմից մշակված ՀՀ ՋԳ ազգային կադաստրի հաշվետվությունը 1990-2021թթ․ համար: ՋԳ արտանետումների փոփոխությունները պայմանավորված են ավելի բարձր կարգի մեթոդաբանությունների կիրառմամբ և արտանետումների նոր աղբյուրների դիտարկմամբ (http://www.ipcc-nggip.iges.or.jp/public/gp/english/7_Methodological.pdf)"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "sectors",
+   "years*"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Ջերմոցային գազերի արտանետումները, (Կտ CO2 համ.)*"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "Կտ CO2 համ. ( Կտ _ կիլոտոննա)",
+       "decimals": 10
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "sectors": {
+    "label": "ըստ ոլորտների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Էներգետիկա"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years*": {
+    "label": "ըստ տարիների*",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "1990"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Ջերմոցային գազերի արտանետումները, (Կտ CO2 համ.)*",
+    "description": "Ջերմոցային գազերի արտանետումները, (Կտ CO2 համ.) ըստ ոլորտների և տարիների*",
+    "descriptiondefault": false,
+    "heading": [
+     "years*"
+    ],
+    "stub": [
+     "sectors"
+    ],
+    "matrix": "EE-b3-2",
+    "subject-code": "EE",
+    "subject-area": "Շրջակա միջավայր"
+   }
+  }
+ }
+}

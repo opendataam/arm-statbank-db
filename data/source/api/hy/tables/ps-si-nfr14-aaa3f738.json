@@ -1,0 +1,205 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2406-si-nfr/ps-si-nfr14.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:38:05+00:00",
+ "metadata": {
+  "title": "Երեխայի ծննդյան միանվագ նպաստ ստացող ընտանիքներին նշանակված նպաստների քանակն",
+  "variables": [
+   {
+    "code": "regular categories of newborns",
+    "text": "ըստ նորածինների հերթական կարգաթվերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "valueTexts": [
+     "1-ին երեխա",
+     "2-րդ երեխա",
+     "3-րդ երեխա",
+     "4-րդ երեխա",
+     "5-րդ և յուրաքանչյուր հաջորդ երեխա",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "ք.Երևան",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Երեխայի ծննդյան միանվագ նպաստ ստացող ընտանիքներին նշանակված նպաստների քանակն , ըստ նորածինների հերթական կարգաթվերի, ըստ մարզերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "regular categories of newborns",
+   "marzes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Երեխայի ծննդյան միանվագ նպաստ ստացող ընտանիքներին նշանակված նպաստների քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "regular categories of newborns": {
+    "label": "ըստ նորածինների հերթական կարգաթվերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "1-ին երեխա"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ք.Երևան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2014"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Երեխայի ծննդյան միանվագ նպաստ ստացող ընտանիքներին նշանակված նպաստների քանակն",
+    "description": "Երեխայի ծննդյան միանվագ նպաստ ստացող ընտանիքներին նշանակված նպաստների քանակն ըստ մարզերի, նորածինների հերթական կարգաթվերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "regular categories of newborns",
+     "marzes"
+    ],
+    "matrix": "ps-si-nfr14",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

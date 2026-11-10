@@ -1,0 +1,177 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2401-si-hms/ps-si-hms30.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:35:45+00:00",
+ "metadata": {
+  "title": "Պատվաստումներում ընդգրկվածությունն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ տարիքային խմբերի",
+    "values": [
+     "0"
+    ],
+    "valueTexts": [
+     "Մինչև 1 տարեկան երեխաներ"
+    ]
+   },
+   {
+    "code": "vaccines",
+    "text": "ըստ պատվաստանյութերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "ՎՀԲ (հեպատիտ Բ` մանկական)",
+     "ԲՑԺ (տուբերկուլյոզ)",
+     "ԱԿԴՓ/ՎՀԲ/ՀԻԲ-3 (դիֆտերիա, փայտացում, կապույտ հազ, հեպատիտ Բ, հեմոֆիլուս ինֆլուենզա Բ տիպի՝ համակցված)",
+     "ՕՊՊ-3 (պոլիոմելիտ՝ բերանային երկվալենտ)",
+     "Ռոտա-2 (ռոտավիրուսային)"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Պատվաստումներում ընդգրկվածությունն , ըստ տարիքային խմբերի, ըստ պատվաստանյութերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "vaccines",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Պատվաստումներում ընդգրկվածությունն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "%",
+       "decimals": 2
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ տարիքային խմբերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մինչև 1 տարեկան երեխաներ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "vaccines": {
+    "label": "ըստ պատվաստանյութերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՎՀԲ (հեպատիտ Բ` մանկական)"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2016"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Պատվաստումներում ընդգրկվածությունն",
+    "description": "Պատվաստումներում ընդգրկվածությունն ըստ տարիքային խմբերի, պատվաստանյութերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "vaccines"
+    ],
+    "matrix": "ps-si-hms30",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

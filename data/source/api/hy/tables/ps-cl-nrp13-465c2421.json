@@ -1,0 +1,177 @@
+{
+ "api_path": "2 Population and social processes/21 Culture/217 Publications/ps-cl-nrp13.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:28:30+00:00",
+ "metadata": {
+  "title": "Թարգմանված գրքերի և գրքույկների քանակն",
+  "variables": [
+   {
+    "code": "languages",
+    "text": "ըստ լեզուների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "Թարգմանվել է հայերեն",
+     "Թարգմանվել է անգլերեն հայերենից",
+     "Թարգմանվել է ռուսերեն հայերենից",
+     "Թարգմանվել է արաբերեն հայերենից",
+     "Թարգմանվել է ֆրանսերեն հայերենից",
+     "Թարգմանվել է թուրքերեն հայերենից",
+     "Թարգմանվել է վրացերեն՝ հայերենից",
+     "Թարգմանվել է գերմաներեն հայերենից",
+     "Թարգմանվել է քրդերեն՝ դանիերենից",
+     "Թարգմանվել է հայերենից",
+     "Թարգմանվել է հունգարերեն՝ հայերենից",
+     "Թարգմանվել է զուգահեռաբար մի քանի լեզուներով",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Թարգմանված գրքերի և գրքույկների քանակն , ըստ լեզուների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "languages",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Թարգմանված գրքերի և գրքույկների քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "languages": {
+    "label": "ըստ լեզուների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Թարգմանվել է հայերեն"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Թարգմանված գրքերի և գրքույկների քանակն",
+    "description": "Թարգմանված գրքերի և գրքույկների քանակն ըստ լեզուների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "languages"
+    ],
+    "matrix": "ps-cl-nrp13",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

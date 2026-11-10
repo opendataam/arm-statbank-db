@@ -1,0 +1,147 @@
+{
+ "api_path": "2 Population and social processes/29 Legal issues/2904-ls-oc/ps-ls-oc08.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:42:49+00:00",
+ "metadata": {
+  "title": "Հանցագործություն կատարած անձանց թվաքանակն",
+  "variables": [
+   {
+    "code": "age",
+    "text": "ըստ տարիքի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "14-15 տարեկան",
+     "16-17 տարեկան",
+     "18-24 տարեկան",
+     "25-29 տարեկան",
+     "30-49 տարեկան",
+     "50 և բարձր տարիքի",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Հանցագործություն կատարած անձանց թվաքանակն , ըստ տարիքի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "age",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Հանցագործություն կատարած անձանց թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "age": {
+    "label": "ըստ տարիքի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "14-15 տարեկան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2019"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Հանցագործություն կատարած անձանց թվաքանակն",
+    "description": "Հանցագործություն կատարած անձանց թվաքանակն ըստ տարիքային խմբերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "age"
+    ],
+    "matrix": "ps-ls-oc08",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

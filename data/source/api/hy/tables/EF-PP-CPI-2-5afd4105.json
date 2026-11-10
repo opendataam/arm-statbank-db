@@ -1,0 +1,192 @@
+{
+ "api_path": "1 Econnomy and finance/16 Producer Prices/165 CPI/EF-PP-CPI-2.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:00+00:00",
+ "metadata": {
+  "title": "Շինարարության գների ինդեքսները նախորդ տարվա համեմատ",
+  "variables": [
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29",
+     "30"
+    ],
+    "valueTexts": [
+     "1995",
+     "1996",
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   },
+   {
+    "code": "indicators",
+    "text": "ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "Շինարարության գների ինդեքս",
+     "Շինմոնտաժային աշխատանքների գների ինդեքս",
+     "Սարքավորումներ (նյութեր) *)",
+     "Այլ ծախսեր *)"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Շինարարության գների ինդեքսները նախորդ տարվա համեմատ , ըստ տարիների և ցուցանիշների",
+  "updated": "9999-12-31T19:59:59Z",
+  "note": [
+   "*) ինդեքսների հաշվարկներն իրականացվում են 2015թ-ից:"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "years",
+   "indicators"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Շինարարության գների ինդեքսները նախորդ տարվա համեմատ"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "նախորդ տարվա համեմատ, %",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "1995"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "indicators": {
+    "label": "ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Շինարարության գների ինդեքս"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Շինարարության գների ինդեքսները նախորդ տարվա համեմատ",
+    "description": "Շինարարության գների ինդեքսները նախորդ տարվա համեմատ",
+    "descriptiondefault": false,
+    "heading": [
+     "indicators"
+    ],
+    "stub": [
+     "years"
+    ],
+    "matrix": "EF-PP-CPI-2",
+    "subject-code": "EF",
+    "subject-area": "Էկոնոմիկա և ֆինանսներ"
+   }
+  }
+ }
+}

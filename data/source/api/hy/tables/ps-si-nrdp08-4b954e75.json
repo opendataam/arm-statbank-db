@@ -1,0 +1,191 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2403-si-nrdp/ps-si-nrdp08.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:36:35+00:00",
+ "metadata": {
+  "title": "Վերափորձաքննության արդյունքներն 2011-2023թթ.",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "Վերաքննությունների քանակը, ընդամենը",
+     "Վերաքննությունների քանակը, կանանց",
+     "  նրանցից՝ ճանաչվել են հաշմանդամ, ընդամենը",
+     "  նրանցից՝ ճանաչվել են հաշմանդամ, կանանց"
+    ]
+   },
+   {
+    "code": "groups of disability",
+    "text": "ըստ հաշմանդամության խմբերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "valueTexts": [
+     "I խումբ",
+     "II խումբ",
+     "III խումբ",
+     "18 տարին լրացած հաշմանդամ երեխա",
+     "Մինչև 18 տարեկան հաշմանդամ երեխա",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Վերափորձաքննության արդյունքներն 2011-2023թթ. , ըստ ցուցանիշների, ըստ հաշմանդամության խմբերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "groups of disability",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Վերափորձաքննության արդյունքներն 2011-2023թթ."
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Վերաքննությունների քանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "groups of disability": {
+    "label": "ըստ հաշմանդամության խմբերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "I խումբ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2011"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Վերափորձաքննության արդյունքներն 2011-2023թթ.",
+    "description": "Վերափորձաքննության արդյունքներն ըստ ցուցանիշների, հաշմանդամության խմբերի և տարիների 2011-2023թթ.",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "groups of disability"
+    ],
+    "matrix": "ps-si-nrdp08",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

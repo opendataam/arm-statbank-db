@@ -1,0 +1,192 @@
+{
+ "api_path": "8 Environment/Life quality/EE-lq-9.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:51:14+00:00",
+ "metadata": {
+  "title": "Բնակչության համամասնությունը, որն օգտագործում է անվտանգ կառավարվող սանիտարական ծառայություններ*",
+  "variables": [
+   {
+    "code": "type of service",
+    "text": "ըստ ծառայության տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Կենտրոնացված սանհանգույց",
+     "Լոկալ/տեղայնացված սանհանգույց/փոսային սանհանգույց",
+     "Դրսի արտաքնոց"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Երևան",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Բնակչության համամասնությունը, որն օգտագործում է անվտանգ կառավարվող սանիտարական ծառայություններ* , ըստ ծառայության տեսակի, ըստ մարզերի և ըստ տարիների",
+  "updated": "2021-02-26T04:00:00Z",
+  "note": [
+   "* ԿԶՆ ցուցանիշ"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "type of service",
+   "marzes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Բնակչության համամասնությունը, որն օգտագործում է անվտանգ կառավարվող սանիտարական ծառայություններ*"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "%",
+       "decimals": 14
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "type of service": {
+    "label": "ըստ ծառայության տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Կենտրոնացված սանհանգույց"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Երևան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2012"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Բնակչության համամասնությունը, որն օգտագործում է անվտանգ կառավարվող սանիտարական ծառայություններ*",
+    "description": "Բնակչության համամասնությունը, որն օգտագործում է անվտանգ կառավարվող սանիտարական ծառայություններ* ըստ ծառայության տեսակի, մարզերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "type of service",
+     "marzes"
+    ],
+    "matrix": "ENV-lq-9",
+    "subject-code": "ENV",
+    "subject-area": "Environment"
+   }
+  }
+ }
+}

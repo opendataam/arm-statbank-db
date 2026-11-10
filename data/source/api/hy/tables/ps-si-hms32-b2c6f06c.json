@@ -1,0 +1,159 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2401-si-hms/ps-si-hms32.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:35:54+00:00",
+ "metadata": {
+  "title": "Բուժհաստատություններում կատարված լաբորատոր-ախտորոշիչ քննությունների քանակն 2011-2023թթ.",
+  "variables": [
+   {
+    "code": "types",
+    "text": "ըստ տեսակների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "արյունաբանական",
+     "բջջաբանական",
+     "կենսաքիմիական",
+     "միկրոբիոլոգիական",
+     "իմունոլոգիական",
+     "այլ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Բուժհաստատություններում կատարված լաբորատոր-ախտորոշիչ քննությունների քանակն 2011-2023թթ. , ըստ տեսակների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "types",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Բուժհաստատություններում կատարված լաբորատոր-ախտորոշիչ քննությունների քանակն 2011-2023թթ."
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "types": {
+    "label": "ըստ տեսակների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2011"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Բուժհաստատություններում կատարված լաբորատոր-ախտորոշիչ քննությունների քանակն 2011-2023թթ.",
+    "description": "Բուժհաստատություններում կատարված լաբորատոր-ախտորոշիչ քննությունների քանակն ըստ տեսակների և տարիների 2011-2023թթ.",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "types"
+    ],
+    "matrix": "ps-si-hms32",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

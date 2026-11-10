@@ -1,0 +1,176 @@
+{
+ "api_path": "6 Agriculture, forestry and fishing/61 Agricultural Census 2014/GHH-8.1-2014.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:48:32+00:00",
+ "metadata": {
+  "title": "Տնտեսությունների քանակն (առ 10.10.2014թ.) ըստ մարզերի, իրավական կարգավիճակի և գյուղատնտեսական արտադրանքի պահպանման համար պահեստարանների ու ծածկերի  և սառնարանների  ",
+  "variables": [
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն, ընդամենը",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "ք. Երևան"
+    ]
+   },
+   {
+    "code": "legal status",
+    "text": "ըստ իրավական կարգավիճակի",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Ֆիզիկական անձի կարգավիճակով",
+     "Իրավաբանական անձի կարգավիճակով"
+    ]
+   },
+   {
+    "code": "storehouses and sheds, refrigerators for storing agricultural products ",
+    "text": "ըստ գյուղատնտեսական արտադրանքի պահպանման համար պահեստարանների ու ծածկերի  և սառնարանների  ",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Տնտեսություններ, որոնք ունեն պահեստարաններ և ծածկեր",
+     "Տնտեսություններ, որոնք ունեն սառնարաններ"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնտեսությունների քանակն (առ 10.10.2014թ.) , ըստ մարզերի, ըստ իրավական կարգավիճակի և ըստ գյուղատնտեսական արտադրանքի պահպանման համար պահեստարանների ու ծածկերի  և սառնարանների  ",
+  "updated": "2017-09-13T06:56:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "marzes",
+   "legal status",
+   "storehouses and sheds, refrigerators for storing agricultural products "
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնտեսությունների քանակն (առ 10.10.2014թ.)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "legal status": {
+    "label": "ըստ իրավական կարգավիճակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ֆիզիկական անձի կարգավիճակով"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "storehouses and sheds, refrigerators for storing agricultural products ": {
+    "label": "ըստ գյուղատնտեսական արտադրանքի պահպանման համար պահեստարանների ու ծածկերի  և սառնարանների  ",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Տնտեսություններ, որոնք ունեն պահեստարաններ և ծածկեր"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնտեսությունների քանակն (առ 10.10.2014թ.)",
+    "descriptiondefault": false,
+    "heading": [
+     "legal status",
+     "storehouses and sheds, refrigerators for storing agricultural products "
+    ],
+    "stub": [
+     "marzes"
+    ],
+    "matrix": "GHH-8.1",
+    "subject-code": "GHH",
+    "subject-area": "Գյուղատնտեսական համատարած հաշվառում"
+   }
+  }
+ }
+}

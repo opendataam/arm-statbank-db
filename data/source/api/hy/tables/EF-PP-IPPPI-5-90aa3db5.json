@@ -1,0 +1,161 @@
+{
+ "api_path": "1 Econnomy and finance/16 Producer Prices/161 IPPPI/EF-PP-IPPPI-5.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:24:39+00:00",
+ "metadata": {
+  "title": "Արդյունաբերական արտադրանք արտադրողների գների ինդեքսները 2017թ.համեմատ, ըստ տարիների, ամիսների",
+  "variables": [
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "valueTexts": [
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025",
+     "2026"
+    ]
+   },
+   {
+    "code": "months",
+    "text": "ամիսների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հունվար",
+     "Փետրվար",
+     "Մարտ",
+     "Ապրիլ",
+     "Մայիս",
+     "Հունիս",
+     "Հուլիս",
+     "Օգոստոս",
+     "Սեպտեմբեր",
+     "Հոկտեմբեր",
+     "Նոյեմբեր",
+     "Դեկտեմբեր"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Արդյունաբերական արտադրանք արտադրողների գների ինդեքսները 2017թ.համեմատ, ըստ տարիների, ամիսների , ըստ տարիների և ամիսների",
+  "updated": "2024-07-03T06:19:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "years",
+   "months"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Արդյունաբերական արտադրանք արտադրողների գների ինդեքսները 2017թ.համեմատ, ըստ տարիների, ամիսների"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "2017թ. համեմատ, %",
+       "decimals": 4
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2018"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "months": {
+    "label": "ամիսների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հունվար"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Արդյունաբերական արտադրանք արտադրողների գների ինդեքսները 2017թ.համեմատ, ըստ տարիների, ամիսների",
+    "description": "Արդյունաբերական արտադրանք արտադրողների գների ինդեքսները 2017թ. համեմատ",
+    "descriptiondefault": false,
+    "heading": [
+     "months"
+    ],
+    "stub": [
+     "years"
+    ],
+    "matrix": "EF-PP-IPPPI-5",
+    "subject-code": "EF",
+    "subject-area": "Էկոնոմիկա և ֆինանսներ"
+   }
+  }
+ }
+}

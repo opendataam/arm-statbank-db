@@ -1,0 +1,23 @@
+{
+ "generated": "2026-11-10T14:22:50+00:00",
+ "description": "Armenian value codes for English value codes where the Armenian PX file orders categories differently; agreement = share of English non-missing cells equal in the Armenian data after mapping.",
+ "checked": 823,
+ "tables": {
+  "PS-hs-bn04": {
+   "agreement_before": 1.0,
+   "agreement_after": 1.0,
+   "remap": {},
+   "dim_map": {
+    "indicators": "exterior wall materials"
+   }
+  },
+  "PS-hs-bn05": {
+   "agreement_before": 1.0,
+   "agreement_after": 1.0,
+   "remap": {},
+   "dim_map": {
+    "indicators": "roof shape"
+   }
+  }
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "api_path": "2 Population and social processes/26 Housing/262 Shuka/PS-hs-rem02.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:40:49+00:00",
+ "metadata": {
+  "title": "Օտարման գործարքների քանակն",
+  "variables": [
+   {
+    "code": "type of transaction",
+    "text": "ըստ գույքի տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Բազմաբնակարան շենքերի բնակարաններ",
+     "Բնակելի տներ (առանձնատներ)",
+     "Ավտոտնակներ",
+     "Հասարակական նշանակության շինություններ",
+     "Արտադրական նշանակության շինություններ",
+     "Հողեր (այդ թվում` գյուղատնտեսական նշանակության)",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "ք.Երևան",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "valueTexts": [
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Օտարման գործարքների քանակն , ըստ գույքի տեսակի, ըստ մարզերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "type of transaction",
+   "marzes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Օտարման գործարքների քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "type of transaction": {
+    "label": "ըստ գույքի տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Բազմաբնակարան շենքերի բնակարաններ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ք.Երևան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2017"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Օտարման գործարքների քանակն",
+    "description": "Օտարման գործարքների քանակն ըստ գույքի տեսակի, մարզերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "type of transaction",
+     "marzes"
+    ],
+    "matrix": "ps-hsrem02",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

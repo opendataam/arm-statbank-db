@@ -1,0 +1,193 @@
+{
+ "api_path": "2 Population and social processes/20 Census/PS-pp-5.2.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:10+00:00",
+ "metadata": {
+  "title": "Բնակչությունն",
+  "variables": [
+   {
+    "code": "Բնակավայր",
+    "text": "Բնակավայր",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Քաղաք",
+     "Գյուղ"
+    ]
+   },
+   {
+    "code": "Ազգություն",
+    "text": "Ազգություն",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "ՀՀ",
+     "Հայ",
+     "Եզդի",
+     "Ռուս",
+     "Ասորի",
+     "Ուկրաինացի",
+     "Քուրդ",
+     "Հնդիկ",
+     "Պարսիկ",
+     "Հույն",
+     "Վրացի",
+     "Այլ",
+     "Հրաժարվել են պատասխանել"
+    ]
+   },
+   {
+    "code": "Տարիք",
+    "text": "Տարիք",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "0 - 9",
+     "10 - 19",
+     "20 - 29",
+     "30 - 39",
+     "40 - 49",
+     "50 - 59",
+     "60 +"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Բնակչությունն , Բնակավայր, Ազգություն և Տարիք",
+  "updated": "2025-09-12T05:00:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "Բնակավայր",
+   "Ազգություն",
+   "Տարիք"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Բնակչությունն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "Բնակավայր": {
+    "label": "Բնակավայր",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "Ազգություն": {
+    "label": "Ազգություն",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՀՀ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "Տարիք": {
+    "label": "Տարիք",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "hy",
+    "contents": "Բնակչությունն",
+    "description": "Բնակչությունն ըստ ազգության և տարիքի",
+    "descriptiondefault": false,
+    "heading": [
+     "Տարիք"
+    ],
+    "stub": [
+     "Բնակավայր",
+     "Ազգություն"
+    ],
+    "matrix": "PS-pp-5.1",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

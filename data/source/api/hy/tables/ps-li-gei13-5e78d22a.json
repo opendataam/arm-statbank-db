@@ -1,0 +1,191 @@
+{
+ "api_path": "2 Population and social processes/29 Legal issues/2906-li-gei/ps-li-gei13.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:43:49+00:00",
+ "metadata": {
+  "title": "Ազատազրկված դատապարտվածների թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Դատապարտվածների թվաքանակը",
+     "Անչափաս դատապարտվածների թվաքանակը"
+    ]
+   },
+   {
+    "code": "terms of imprisonment",
+    "text": "ըստ ազատազրկման ժամկետների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "valueTexts": [
+     "1 տարի ներառյալ",
+     "1 տարուց ավել, մինչև 2 տարի ներառյալ",
+     "2 տարուց ավել, մինչև 3 տարի ներառյալ",
+     "3 տարուց ավել, մինչև 5 տարի ներառյալ",
+     "5 տարուց ավել, մինչև 8 տարի ներառյալ",
+     "8 տարուց ավել, մինչև 10 տարի ներառյալ",
+     "10 տարուց ավել, մինչև 15 տարի ներառյալ",
+     "15 տարուց ավել",
+     "10 տարուց ավել, մինչև 20 տարի ներառյալ",
+     "Ցմահ",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Ազատազրկված դատապարտվածների թվաքանակն , ըստ ցուցանիշների, ըստ ազատազրկման ժամկետների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "terms of imprisonment",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Ազատազրկված դատապարտվածների թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Դատապարտվածների թվաքանակը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "terms of imprisonment": {
+    "label": "ըստ ազատազրկման ժամկետների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "1 տարի ներառյալ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2016"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Ազատազրկված դատապարտվածների թվաքանակն",
+    "description": "Ազատազրկված դատապարտվածների թվաքանակն ըստ ցուցանիշների, ազատազրկման ժամկետների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "terms of imprisonment"
+    ],
+    "matrix": "ps-li-gei13",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

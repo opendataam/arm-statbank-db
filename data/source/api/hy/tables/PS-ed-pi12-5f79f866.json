@@ -1,0 +1,191 @@
+{
+ "api_path": "2 Population and social processes/22 Education/221 Preschool institutions/PS-ed-pi12.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:29:20+00:00",
+ "metadata": {
+  "title": "Մանկավարժադաստիարակչական անձնակազմի թվաքանակը նախադպրոցական համայնքային և գերատեսչական հաստատություններում",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Մանկավարժադաստիարակչական անձնակազմի թվաքանակը, ընդամենը",
+     "Մանկավարժադաստիարակչական անձնակազմի թվաքանակը, կանայք"
+    ]
+   },
+   {
+    "code": "seniority",
+    "text": "ըստ աշխատանքային ստաժի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "Մինչև 6 տարի",
+     "6-10 տարի",
+     "11-15 տարի",
+     "16 և ավելի",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Մանկավարժադաստիարակչական անձնակազմի թվաքանակը նախադպրոցական համայնքային և գերատեսչական հաստատություններում , ըստ ցուցանիշների, ըստ աշխատանքային ստաժի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "seniority",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Մանկավարժադաստիարակչական անձնակազմի թվաքանակը նախադպրոցական համայնքային և գերատեսչական հաստատություններում"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մանկավարժադաստիարակչական անձնակազմի թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "seniority": {
+    "label": "ըստ աշխատանքային ստաժի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մինչև 6 տարի"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Մանկավարժադաստիարակչական անձնակազմի թվաքանակը նախադպրոցական համայնքային և գերատեսչական հաստատություններում",
+    "description": "Մանկավարժադաստիարակչական անձնակազմի թվաքանակը նախադպրոցական համայնքային և գերատեսչական հաստատություններում ըստ ցուցանիշների, աշխատանքային ստաժի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "seniority"
+    ],
+    "matrix": "Ps-ed-pi12",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

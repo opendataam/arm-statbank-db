@@ -1,0 +1,229 @@
+{
+ "api_path": "2 Population and social processes/21 Culture/216 Activity of sport organizations/ps-cl-nso08.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:27:41+00:00",
+ "metadata": {
+  "title": "Մարզիչ-մանկավարժների թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Մարզիչ-մանկավարժների թվաքանակը, ընդամենը",
+     "Մարզիչ-մանկավարժների թվաքանակը, կանայք"
+    ]
+   },
+   {
+    "code": "non olympic sport",
+    "text": "ըստ ոչ օլիմպիական մարզաձևերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "valueTexts": [
+     "Ալպինիզմ",
+     "Ակրոբատիկա",
+     "Կարատե",
+     "Շախմատ",
+     "Պոլո",
+     "Սպորտային պարեր",
+     "Սերֆինգ",
+     "Ուշու",
+     "Կոխ",
+     "Շաշկի",
+     "Ռենձյու",
+     "Ջրադահուկային սպորտ",
+     "Քիք-բոքսինգ",
+     "Սամբո",
+     "Նեթբոլ",
+     "Արմֆայթինգ",
+     "Գոլֆ",
+     "Բազկամարտ",
+     "Կարտինգ",
+     "Սանդա",
+     "Աէրոնավտիկա",
+     "Ավիամոդելավորում",
+     "Բիլիարդ",
+     "Անվավոր մարզաձևեր",
+     "Բրիջ",
+     "Գնդային մարզաձևեր",
+     "Մոտոցիկլետային սպորտ",
+     "Հրաձգություն (վազող թիրախ)",
+     "Նավամոդելավորում",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Մարզիչ-մանկավարժների թվաքանակն , ըստ ցուցանիշների, ըստ ոչ օլիմպիական մարզաձևերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "non olympic sport",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Մարզիչ-մանկավարժների թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մարզիչ-մանկավարժների թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "non olympic sport": {
+    "label": "ըստ ոչ օլիմպիական մարզաձևերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ալպինիզմ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2016"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Մարզիչ-մանկավարժների թվաքանակն",
+    "description": "Մարզիչ-մանկավարժների թվաքանակն ըստ ցուցանիշների, ոչ օլիմպիական մարզաձևերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "non olympic sport"
+    ],
+    "matrix": "ps-cl-nso08",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

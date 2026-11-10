@@ -1,0 +1,234 @@
+{
+ "api_path": "6 Agriculture, forestry and fishing/61 Agricultural Census 2014/GHH-8.5-2014n.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:48:34+00:00",
+ "metadata": {
+  "title": "Տնտեսությունների քանակն ըստ մարզերի, վարձակալված գյուղատնտեսական տեխնիկայի/սարքավորումների, իրավական կարգավիճակի և գյուղատնտեսական տեխնիկայի/սարքավորումների օգտագործման ծառայություններից օգտվողների",
+  "variables": [
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն, ընդամենը",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "ք. Երևան"
+    ]
+   },
+   {
+    "code": "the rented agricultural machinery/equipment",
+    "text": "ըստ վարձակալված գյուղատնտեսական տեխնիկայի/սարքավորումների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "Թրթուրավոր տրակտորներ",
+     "Անվավոր տրակտորներ",
+     "Բեռնատար ավտոմեքենաներ",
+     "Հացահատիկահավաք կոմբայններ",
+     "Կերահավաք կոմբայններ (բոլոր տեսակի)",
+     "Խոտհնձիչներ (բոլոր տեսակի)",
+     "Տրակտորային կցասայլակներ",
+     "Հավաքիչ-մամլիչներ",
+     "Հատիկազտիչ մեքենաներ",
+     "Շարքացաններ",
+     "Գութաններ",
+     "Կուլտիվատորներ",
+     "Տրակտորային սրսկիչներ",
+     "Կաթի պահպանման սառնարանային սարքավորումներ",
+     "Կաթ վերամշակող սարքավորումներ",
+     "Այլ"
+    ]
+   },
+   {
+    "code": "legal status",
+    "text": "ըստ իրավական կարգավիճակի",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Ֆիզիկական անձի կարգավիճակով",
+     "Իրավաբանական անձի կարգավիճակով"
+    ]
+   },
+   {
+    "code": "users of services of agricultural machinery/equipment utilisation",
+    "text": "ըստ գյուղատնտեսական տեխնիկայի/սարքավորումների օգտագործման ծառայություններից օգտվողների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Տնտեսություններ, որոնք վարձակալել են գյուղատնտեսական տեխնիկա/սարքավորումներ",
+     "Տնտեսություններ, որոնք օգտվել են գյուղատնտեսական  տեխնիկայի/սարքավորումների օգտագործման ծառայություններից"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնտեսությունների քանակն , ըստ մարզերի, ըստ վարձակալված գյուղատնտեսական տեխնիկայի/սարքավորումների, ըստ իրավական կարգավիճակի և ըստ գյուղատնտեսական տեխնիկայի/սարքավորումների օգտագործման ծառայություններից օգտվողների",
+  "updated": "2017-07-25T06:25:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "marzes",
+   "the rented agricultural machinery/equipment",
+   "legal status",
+   "users of services of agricultural machinery/equipment utilisation"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնտեսությունների քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "(միավոր)",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "the rented agricultural machinery/equipment": {
+    "label": "ըստ վարձակալված գյուղատնտեսական տեխնիկայի/սարքավորումների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Թրթուրավոր տրակտորներ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "legal status": {
+    "label": "ըստ իրավական կարգավիճակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ֆիզիկական անձի կարգավիճակով"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "users of services of agricultural machinery/equipment utilisation": {
+    "label": "ըստ գյուղատնտեսական տեխնիկայի/սարքավորումների օգտագործման ծառայություններից օգտվողների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Տնտեսություններ, որոնք վարձակալել են գյուղատնտեսական տեխնիկա/սարքավորումներ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնտեսությունների քանակն",
+    "descriptiondefault": false,
+    "heading": [
+     "legal status",
+     "users of services of agricultural machinery/equipment utilisation"
+    ],
+    "stub": [
+     "marzes",
+     "the rented agricultural machinery/equipment"
+    ],
+    "matrix": "GHH-8.5",
+    "subject-code": "GHH",
+    "subject-area": "Գյուղատնտեսական համատարած հաշվառում"
+   }
+  }
+ }
+}

@@ -1,0 +1,193 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2403-si-nrdp/ps-si-nrdp04.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:36:25+00:00",
+ "metadata": {
+  "title": "Հաշմանդամություն ունեցող անձանց թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Հաշվառված հաշմանդամների թվաքանակը, ընդամենը",
+     "Հաշվառված հաշմանդամների թվաքանակը, կանայք"
+    ]
+   },
+   {
+    "code": "causes of disability",
+    "text": "ըստ հաշմանդամության պատճառների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Ընդհանուր հիվանդություններ",
+     "Մանկուց հիվանդություն",
+     "Զինծառայության ընթացքում ստացած հիվանդություն, խեղում, վնասվածք",
+     "Աշխատանքային խեղում կամ վնասվածք",
+     "Մասնագիտական հիվանդություն",
+     "Չեռնոբիլի ԱԷԿ-ի վթարի և այլ ճառագայթային աղետների վերացման աշխատանքների ժա-մանակ ստացած հիվանդություն, խեղում, վնասվածք",
+     "Տարերային, տեխնածին և այլ աղետների, ինչ-պես նաև դրանց վերացման աշխատանքների ժամանակ ստացած հիվանդություն, խեղում, վնասվածք",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13"
+    ],
+    "valueTexts": [
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Հաշմանդամություն ունեցող անձանց թվաքանակն , ըստ ցուցանիշների, ըստ հաշմանդամության պատճառների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "causes of disability",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Հաշմանդամություն ունեցող անձանց թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հաշվառված հաշմանդամների թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "causes of disability": {
+    "label": "ըստ հաշմանդամության պատճառների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդհանուր հիվանդություններ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2011"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Հաշմանդամություն ունեցող անձանց թվաքանակն",
+    "description": "Հաշմանդամություն ունեցող անձանց թվաքանակն ըստ ցուցանիշների, հաշմանդամության պատճառների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "causes of disability"
+    ],
+    "matrix": "ps-si-nrdp04",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

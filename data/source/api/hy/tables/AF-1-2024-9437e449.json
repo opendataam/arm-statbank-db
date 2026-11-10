@@ -1,0 +1,219 @@
+{
+ "api_path": "6 Agriculture, forestry and fishing/AF-1-2024.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:48:44+00:00",
+ "metadata": {
+  "title": "Գյուղատնտեսական կենդանիների գլխաքանակն",
+  "variables": [
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն",
+     "ք. Երևան",
+     "Արագածոտնի մարզ",
+     "Արարատի մարզ",
+     "Արմավիրի մարզ",
+     "Գեղարքունիքի մարզ",
+     "Լոռու մարզ",
+     "Կոտայքի մարզ",
+     "Շիրակի մարզ",
+     "Սյունիքի մարզ",
+     "Վայոց ձորի մարզ",
+     "Տավուշի մարզ"
+    ]
+   },
+   {
+    "code": "types",
+    "text": "ըստ տեսակների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "Խոշոր եղջերավոր",
+     "Խոշոր եղջերավորներից` կովեր",
+     "Խոզեր",
+     "Ոչխարներ և այծեր",
+     "Ձիեր"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19"
+    ],
+    "valueTexts": [
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025",
+     "2026"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Գյուղատնտեսական կենդանիների գլխաքանակն , ըստ մարզերի, ըստ տեսակների և ըստ տարիների",
+  "updated": "2012-07-10T01:51:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "marzes",
+   "types",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Գյուղատնտեսական կենդանիների գլխաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "հունվարի 1-ի դրությամբ, հազ. գլուխ",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "types": {
+    "label": "ըստ տեսակների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Խոշոր եղջերավոր"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2007"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Գյուղատնտեսական կենդանիների գլխաքանակն",
+    "description": "Գյուղատնտեսական կենդանիների գլխաքանակն ըստ մարզերի, տեսակների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "marzes",
+     "types"
+    ],
+    "matrix": "AF-1",
+    "subject-code": "AF-1",
+    "subject-area": "Գյուղատնտեսություն"
+   }
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "api_path": "6 Agriculture, forestry and fishing/61 Agricultural Census 2014/GHH-4.1.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:48:22+00:00",
+ "metadata": {
+  "title": "Փաստացի ոռոգված հողերի ոռոգման մեթոդներն (01.08.2013-31.07.2014) ըստ իրավական կարգավիճակի, ոռոգման մեթոդների և մարզերի",
+  "variables": [
+   {
+    "code": "legal status",
+    "text": "ըստ իրավական կարգավիճակի",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Ֆիզիկական անձի կարգավիճակով",
+     "Իրավաբանական անձի կարգավիճակով"
+    ]
+   },
+   {
+    "code": "methods of irrigation",
+    "text": "ըստ ոռոգման մեթոդների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "ակոսային",
+     "արհեստական անձրևացում",
+     "կաթիլային",
+     "այլ"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն, ընդամենը",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "ք. Երևան"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Փաստացի ոռոգված հողերի ոռոգման մեթոդներն (01.08.2013-31.07.2014) , ըստ իրավական կարգավիճակի, ըստ ոռոգման մեթոդների և ըստ մարզերի",
+  "updated": "2017-04-11T13:24:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "legal status",
+   "methods of irrigation",
+   "marzes"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Փաստացի ոռոգված հողերի ոռոգման մեթոդներն (01.08.2013-31.07.2014)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "legal status": {
+    "label": "ըստ իրավական կարգավիճակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ֆիզիկական անձի կարգավիճակով"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "methods of irrigation": {
+    "label": "ըստ ոռոգման մեթոդների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ակոսային"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Փաստացի ոռոգված հողերի ոռոգման մեթոդներն (01.08.2013-31.07.2014)",
+    "descriptiondefault": false,
+    "heading": [
+     "marzes"
+    ],
+    "stub": [
+     "legal status",
+     "methods of irrigation"
+    ],
+    "matrix": "GHH-4.1",
+    "subject-code": "GHH",
+    "subject-area": "Գյուղատնտեսական համատարած հաշվառում"
+   }
+  }
+ }
+}

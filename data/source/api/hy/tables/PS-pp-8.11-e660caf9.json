@@ -1,0 +1,179 @@
+{
+ "api_path": "2 Population and social processes/20 Census/PS-pp-8.11.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:11+00:00",
+ "metadata": {
+  "title": "Տնային տնտեսություններն ըստ",
+  "variables": [
+   {
+    "code": "settlement",
+    "text": "բնակավայր",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "ՀՀ",
+     "Քաղաք",
+     "Գյուղ"
+    ]
+   },
+   {
+    "code": "Type of ownership",
+    "text": "սեփականության ձևը",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Տվյալ Տ/Տ անդամների",
+     "Պետության",
+     "Համայնքի",
+     "Իրավաբանական անձի",
+     "Այլ անձի/անձանց",
+     "Սեփականության ձևը չնշած"
+    ]
+   },
+   {
+    "code": "typehous",
+    "text": "տեսակ գույքի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Հիմնական",
+     "Բարաք/ժամանակավոր կացարան",
+     "Հասարակական նշանակության շենք/շինություն",
+     "Համատեղ բնակության շինություն",
+     "Այլ` բնակության համար հարմարեցված շինություն",
+     "Անշարժ գույքի տեսակը նշված չէ"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնային տնտեսություններն ըստ , բնակավայր, սեփականության ձևը և տեսակ գույքի",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "settlement",
+   "Type of ownership",
+   "typehous"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնային տնտեսություններն ըստ"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "Տ/Տ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "settlement": {
+    "label": "բնակավայր",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՀՀ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "Type of ownership": {
+    "label": "սեփականության ձևը",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "typehous": {
+    "label": "տեսակ գույքի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնային տնտեսություններն ըստ",
+    "description": "Տնային տնտեսություններն ըստ բնակելի միավորի սեփականության ձևի և անշարժ գույքի տեսակի",
+    "descriptiondefault": false,
+    "heading": [
+     "typehous"
+    ],
+    "stub": [
+     "settlement",
+     "Type of ownership"
+    ],
+    "matrix": "PS-pp-8.11",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "api_path": "2 Population and social processes/26 Housing/266 Hatuk transport/PS-hs-sc02.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:41:48+00:00",
+ "metadata": {
+  "title": "Սանիտարական մաքրման համակարգի մեքենա-օրերի քանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "Մեքենա-օրերի քանակը, ընդամենը",
+     "    այդ թվում՝ վերանորոգման մեջ",
+     "                      կոնսերվացման մեջ",
+     "                      պարապուրդում` կապված մթնոլորտային պայմանների և այլ պատճառների հետ",
+     "                      աշխատանքում"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "ք.Երևան",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Սանիտարական մաքրման համակարգի մեքենա-օրերի քանակն , ըստ ցուցանիշների, ըստ մարզերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "marzes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Սանիտարական մաքրման համակարգի մեքենա-օրերի քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "հազ. մեքենա-օր",
+       "decimals": 3
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մեքենա-օրերի քանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ք.Երևան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2014"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 3,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Սանիտարական մաքրման համակարգի մեքենա-օրերի քանակն",
+    "description": "Սանիտարական մաքրման համակարգի մեքենա-օրերի քանակն ըստ ցուցանիշների, մարզերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "marzes"
+    ],
+    "matrix": "ps-hssc02",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

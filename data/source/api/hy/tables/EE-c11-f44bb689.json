@@ -1,0 +1,194 @@
+{
+ "api_path": "8 Environment/(C) Water resources/9.(C10, C11) Water quality indicator, by observation points and years/Nutrients in freshwater - groundwater/EE-c11.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:49:43+00:00",
+ "metadata": {
+  "title": "Կենսածին նյութերը ստորերկրյա քաղցրահամ ջրերում",
+  "variables": [
+   {
+    "code": "observation points",
+    "text": "ըստ դիտակետերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "N 529",
+     "N 532",
+     "N 537",
+     "N 785",
+     "N 1175",
+     "N 1297",
+     "N 2013",
+     "N 2035"
+    ]
+   },
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "NO3, անալիզների ընդհանուր թիվը, անգամ",
+     "NO3, տարեկան առավելագույն կոնցենտրացիան, մգ NO3/լ",
+     "NO3, տարեկան  նվազագույն կոնցենտրացիան, մգ NO3/լ",
+     "NO3, միջին տարեկան կոնցենտրացիան, մգ NO3/լ",
+     "NO3, միջին քառակուսային շեղում, մգ NO3/լ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Կենսածին նյութերը ստորերկրյա քաղցրահամ ջրերում , ըստ դիտակետերի, ըստ ցուցանիշների և ըստ տարիների",
+  "updated": "2014-05-08T12:12:00Z",
+  "note": [
+   "Դիտակետի նկարագիրը\r\nԴիտակետի    Տեղադրություն                              Տեսակ\r\nհամար\r\n529 Սյունիքի մարզ, գյ.Գորհայք               Աղբյուր\r\n532 Սյունիքի մարզ, գյ. Շաքի                  Աղբյուր\r\n537 Սյունիքի մարզ, գյ. Սպանդարյան     Աղբյուր\r\n785 Վայոց ձորի մարզ, գյ․ Ագարակաձոր\r\n1175 Սյունիքի մարզ, գյ. Անգեղակոթ  Աղբյուր\r\n1297 Կոտայքի մարզ, գյ. Սոլակ, շատրվանող հորատանցք  Աղբյուր\r\n2013 Գեղարքունիքի մարզ, գյ․ Գանձակ\r\n2035 Շիրակի մարզ, գյ․ Մարմաշեն  Աղբյուր",
+   "Փորձանմուշները վերցնում են տարին 2 անգամ` մայիսին և հոկտեմբերին: NO3- նիտրատներ:"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "observation points",
+   "indicators",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Կենսածին նյութերը ստորերկրյա քաղցրահամ ջրերում"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "-",
+       "decimals": 15
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "observation points": {
+    "label": "ըստ դիտակետերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "N 529"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "NO3, անալիզների ընդհանուր թիվը, անգամ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2017"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "noteMandatory": {
+    "0": true
+   },
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Կենսածին նյութերը ստորերկրյա քաղցրահամ ջրերում",
+    "description": "Կենսածին նյութերը ստորերկրյա քաղցրահամ ջրերում ըստ դիտակետերի,ցուցանիշների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "observation points",
+     "indicators"
+    ],
+    "matrix": "EE-c11",
+    "subject-code": "EE",
+    "subject-area": "Շրջակա միջավայր"
+   }
+  }
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "api_path": "8 Environment/Life quality/EE-lq-CompInd.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:51:15+00:00",
+ "metadata": {
+  "title": "Շրջակա միջավայրին առնչվող կյանքի որակի ագրեգացված ցուցանիշն*",
+  "variables": [
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Երևան",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Շրջակա միջավայրին առնչվող կյանքի որակի ագրեգացված ցուցանիշն* , ըստ մարզերի և ըստ տարիների",
+  "updated": "2021-02-26T04:00:00Z",
+  "note": [
+   "* ներառում է շրջակա միջավայրին առնչվող կյանքի որակը բնութագրող 17 ցուցանիշ, որոնք հաշվարկված են ըստ ՀՀ մարզերի և ք. Երևանի"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "marzes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Շրջակա միջավայրին առնչվող կյանքի որակի ագրեգացված ցուցանիշն*"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 15
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Երևան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2012"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Շրջակա միջավայրին առնչվող կյանքի որակի ագրեգացված ցուցանիշն*",
+    "description": "Շրջակա միջավայրին առնչվող կյանքի որակի ագրեգացված ցուցանիշ* ըստ մարզերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "marzes"
+    ],
+    "matrix": "ENV-lq-CompInd",
+    "subject-code": "ENV",
+    "subject-area": "Շրջակա միջավայրին առնչվող կյանքի որակի ագրեգացված ցուցանիշ"
+   }
+  }
+ }
+}

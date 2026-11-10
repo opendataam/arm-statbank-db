@@ -1,0 +1,213 @@
+{
+ "api_path": "2 Population and social processes/20 Census/PS-pp-1-1-2.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:09+00:00",
+ "metadata": {
+  "title": "ՀՀ մշտական բնակչության թվաքանակի բաշխումն ըստ",
+  "variables": [
+   {
+    "code": "marzes",
+    "text": "մարզեր",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն",
+     "ք.Երևան",
+     "Արագածոտնի մարզ",
+     "Արարատի մարզ",
+     "Արմավիրի մարզ",
+     "Գեղարքունիքի մարզ",
+     "Լոռու մարզ",
+     "Կոտայքի մարզ",
+     "Շիրակի մարզ",
+     "Սյունիքի մարզ",
+     "Վայոց ձորի մարզ",
+     "Տավուշի մարզ"
+    ]
+   },
+   {
+    "code": "settlement",
+    "text": "բնակավայր",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Քաղաք",
+     "Գյուղ"
+    ]
+   },
+   {
+    "code": "sex",
+    "text": "սեռ",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Արական",
+     "Իգական"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "տարի",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "2001",
+     "2011",
+     "2022"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "ՀՀ մշտական բնակչության թվաքանակի բաշխումն ըստ , մարզեր, բնակավայր, սեռ և տարի",
+  "updated": "2025-09-16T07:00:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "marzes",
+   "settlement",
+   "sex",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "ՀՀ մշտական բնակչության թվաքանակի բաշխումն ըստ"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "Մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "marzes": {
+    "label": "մարզեր",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "settlement": {
+    "label": "բնակավայր",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "sex": {
+    "label": "սեռ",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "տարի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2001"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "ՀՀ մշտական բնակչության թվաքանակի բաշխումն ըստ",
+    "description": "ՀՀ մշտական բնակչության թվաքանակի բաշխումն ըստ սեռի և մարզերի",
+    "descriptiondefault": false,
+    "heading": [
+     "sex",
+     "years"
+    ],
+    "stub": [
+     "marzes",
+     "settlement"
+    ],
+    "matrix": "PS-pp-1-1-2",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

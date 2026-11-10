@@ -1,0 +1,151 @@
+{
+ "api_path": "8 Environment/(E,F) Land and Agriculture/EE-f4.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:50:25+00:00",
+ "metadata": {
+  "title": "(F4)Պեստիցիդների օգտագործումն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "Գյուղատնտեսական նշանակության հողեր /վարելահողեր+բազմամյա տնկարկներ/, հազ. հա",
+     "Պեստիցիդներ օգտագործած տարածքներ, հազ. հա",
+     "Պեստիցիդների օգտագործում (ըստ ազդող նյութի քանակության), տոննա",
+     "Պեստիցիդների օգտագործումը 1 հա-ի հաշվով /տող6:տող5/, կգ/հա"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "(F4)Պեստիցիդների օգտագործումն , ըստ ցուցանիշների և ըստ տարիների",
+  "updated": "2014-09-17T05:18:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "(F4)Պեստիցիդների օգտագործումն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "-",
+       "decimals": 5
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Գյուղատնտեսական նշանակության հողեր /վարելահողեր+բազմամյա տնկարկներ/, հազ. հա"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2006"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 5,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "(F4)Պեստիցիդների օգտագործումն",
+    "description": "(F4)Պեստիցիդների օգտագործումն ըստ ցուցանիշների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators"
+    ],
+    "matrix": "EE-f4",
+    "subject-code": "EE",
+    "subject-area": "Շրջակա միջավայր և էներգետիկա"
+   }
+  }
+ }
+}

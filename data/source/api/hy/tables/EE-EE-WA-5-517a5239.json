@@ -1,0 +1,153 @@
+{
+ "api_path": "8 Environment/Environmental economic accounts/Water Accounts/EE-EE-WA-5.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:50:54+00:00",
+ "metadata": {
+  "title": "Հիմնական ցուցանիշները",
+  "variables": [
+   {
+    "code": "type",
+    "text": "ըստ տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "K1 Ջրի սպառումը, մլն.խոր.մ",
+     "K2 Ջրի սպառումը ՀԱԱ-ի հաշվով (համախառն ավելացված արժեք), խոր.մ/1000 դրամ",
+     "K3 Ջրի սպառումը արտադրանքի թողարկման հաշվով, խոր.մ/1000 դրամ",
+     "K4 Ջրօգտագործումը, մլն.խոր.մ",
+     "K5 Ջրօգտագործումը ՀԱԱ-ի հաշվով (համախառն ավելացված արժեք), խոր.մ/1000 դրամ",
+     "K6 Ջրօգտագործումը արտադրանքի թողարկման հաշվով, խոր.մ/1000 դրամ",
+     "K7. Ընդհանուր ջրօգտագործման մեջ ջրի սպառման մասնաբաժինը, %",
+     "K8. Տեղափոխման ժամանակ կորուստների մասնաբաժինը ընդհանուր ջրօգտագործման մեջ, %"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "valueTexts": [
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Հիմնական ցուցանիշները , ըստ տեսակի և ըստ տարիների",
+  "updated": "2014-04-28T11:19:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "type",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Հիմնական ցուցանիշները"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "-",
+       "decimals": 15
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "type": {
+    "label": "ըստ տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "K1 Ջրի սպառումը, մլն.խոր.մ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2015"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Հիմնական ցուցանիշները",
+    "description": "Հիմնական ցուցանիշները ըստ տեսակի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "type"
+    ],
+    "matrix": "EE-EE-WA-5",
+    "subject-code": "EE",
+    "subject-area": "Շրջակա միջավայր և էներգետիկա"
+   }
+  }
+ }
+}

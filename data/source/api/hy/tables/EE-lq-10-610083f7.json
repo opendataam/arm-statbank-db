@@ -1,0 +1,210 @@
+{
+ "api_path": "8 Environment/Life quality/EE-lq-10.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:50:56+00:00",
+ "metadata": {
+  "title": "Բնակչության բավարարվածությունը շրջակա միջավայրի վիճակով*",
+  "variables": [
+   {
+    "code": "type of complaint",
+    "text": "ըստ բողոքի տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "valueTexts": [
+     "Աղմուկ հարևաններից և շրջապատից",
+     "Երթևեկության խցանում",
+     "Արդյունաբերական արտանետում",
+     "Ջրամատակարարումը վատ է",
+     "Աղբահավաքումը վատ է",
+     "Կանաչապատ գոտիների պակաս"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Երևան",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Բնակչության բավարարվածությունը շրջակա միջավայրի վիճակով* , ըստ բողոքի տեսակի, ըստ մարզերի և ըստ տարիների",
+  "updated": "2021-02-26T04:00:00Z",
+  "note": [
+   "* Հիմք են հանդիսանում տնային տնտեսությունների տարեկան հետազոտությունները"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "type of complaint",
+   "marzes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Բնակչության բավարարվածությունը շրջակա միջավայրի վիճակով*"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "%",
+       "decimals": 15
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "type of complaint": {
+    "label": "ըստ բողոքի տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Աղմուկ հարևաններից և շրջապատից"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Երևան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2012"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Բնակչության բավարարվածությունը շրջակա միջավայրի վիճակով*",
+    "description": "Բնակչության բավարարվածությունը շրջակա միջավայրի վիճակով* ըստ բողոքի տեսակի, մարզերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "type of complaint",
+     "marzes"
+    ],
+    "matrix": "ENV-lq-10",
+    "subject-code": "ENV",
+    "subject-area": "Environment"
+   }
+  }
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "api_path": "2 Population and social processes/22 Education/222 General education institutions/ps-ed-gei06.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:29:41+00:00",
+ "metadata": {
+  "title": "Հանրակրթական պետական դպրոցներում աշակերտների թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Աշակերտների թվաքանակը, ընդամենը",
+     "Աշակերտների թվաքանակը, աղջիկներ"
+    ]
+   },
+   {
+    "code": "grades",
+    "text": "ըստ դասարանի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "1-ին դասարան",
+     "2-րդ դասարան",
+     "3-րդ դասարան",
+     "4-րդ դասարան",
+     "5-րդ դասարան",
+     "6-րդ դասարան",
+     "7-րդ դասարան",
+     "8-րդ դասարան",
+     "9-րդ դասարան",
+     "10-րդ դասարան",
+     "11-րդ դասարան",
+     "12-րդ դասարան",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Հանրակրթական պետական դպրոցներում աշակերտների թվաքանակն , ըստ ցուցանիշների, ըստ դասարանի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "grades",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Հանրակրթական պետական դպրոցներում աշակերտների թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Աշակերտների թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "grades": {
+    "label": "ըստ դասարանի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "1-ին դասարան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Հանրակրթական պետական դպրոցներում աշակերտների թվաքանակն",
+    "description": "Հանրակրթական պետական դպրոցներում աշակերտների թվաքանակն ըստ ցուցանիշների, դասարանի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "grades"
+    ],
+    "matrix": "ps-ed-gei06",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

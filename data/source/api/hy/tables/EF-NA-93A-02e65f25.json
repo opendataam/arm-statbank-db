@@ -1,0 +1,164 @@
+{
+ "api_path": "1 Econnomy and finance/15 National Accounts/152 SNA 1993/1521 Annual data/EF-NA-93A.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:23:39+00:00",
+ "metadata": {
+  "title": "ՀՆԱ-ն",
+  "variables": [
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14"
+    ],
+    "valueTexts": [
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014"
+    ]
+   },
+   {
+    "code": "GDP per capita by SNA 1993",
+    "text": "բնակչության մեկ շնչի հաշվով ըստ ԱՀՀ 1993",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "valueTexts": [
+     "ՀՆԱ, մլն. դրամ",
+     "ՀՆԱ, մլն. ԱՄՆ դոլար",
+     "ՀՆԱ-ն  բնակչության մեկ  շնչի հաշվով, դրամ",
+     "ՀՆԱ-ն  բնակչության մեկ  շնչի հաշվով, դոլար",
+     "Տեղեկատու՝ դրամ/ԱՄՆ դոլար միջին տարեկան փոխարժեքը",
+     "Տեղեկատու՝ ՀՀ մշտական բնակչության միջին տարեկան թվաքանակը, հազ. մարդ"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "ՀՆԱ-ն , ըստ տարիների և բնակչության մեկ շնչի հաշվով ըստ ԱՀՀ 1993",
+  "updated": "2021-04-28T04:00:00Z",
+  "note": [
+   "*ՀՀ մշտական բնակչության միջին տարեկան թվաքանակը 2002-2014թթ. համար հաշվարկված է 2011թ. ՀՀ մարդահամարի արդյունքների հիման վրա"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "years",
+   "GDP per capita by SNA 1993"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "ՀՆԱ-ն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "ընթացիկ գներով",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2000"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "GDP per capita by SNA 1993": {
+    "label": "բնակչության մեկ շնչի հաշվով ըստ ԱՀՀ 1993",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՀՆԱ, մլն. դրամ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "ՀՆԱ-ն",
+    "description": "ՀՆԱ-ն բնակչության մեկ շնչի հաշվով ըստ ԱՀՀ 1993 և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "GDP per capita by SNA 1993"
+    ],
+    "stub": [
+     "years"
+    ],
+    "matrix": "EF-na-93A",
+    "subject-code": "EF",
+    "subject-area": "Economy and finance"
+   }
+  }
+ }
+}

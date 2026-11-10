@@ -1,0 +1,163 @@
+{
+ "api_path": "8 Environment/(B) Climate change/(B3) Greenhouse gas emissions/EE-b3-1.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:49:24+00:00",
+ "metadata": {
+  "title": "Ջերմոցային գազերի արտանետումները* (Գգ CO2 համ.)",
+  "variables": [
+   {
+    "code": "Greenhouse gases",
+    "text": "ըստ ջերմոցային գազերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Ածխածնի երկօքսիդ (СО2), Կտ CO2 համ.",
+     "Ազոտի ենթօքսիդ (N2O), Կտ CO2 համ.",
+     "Մեթան (СН4), Կտ CO2 համ.",
+     "Հիդրոքլորածխածիններ (HFCs), Կտ CO2 համ.",
+     "Ծծմբի հեքսաֆտորիդ (SF6) , Կտ CO2 համ.",
+     "ՋԳ զուտ արտանետումները, Կտ CO2 համ.",
+     "Զուտ արտանետումները մեկ շնչի հաշվով, տ/մարդ",
+     "Զուտ արտանետումները $ 1000 (ԳՀ` գնողունակության հնարավորություն, 2021թ) ՀՆԱ -ի հաշվով***, տ/ $1000"
+    ]
+   },
+   {
+    "code": "years**",
+    "text": "ըստ տարիների*",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "1990",
+     "2000",
+     "2005",
+     "2010",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Ջերմոցային գազերի արտանետումները* (Գգ CO2 համ.) , ըստ ջերմոցային գազերի և ըստ տարիների*",
+  "source": "<a href='http://www.mnp.am/?p=169' >ՀՀ ՇՄՆ</a>",
+  "updated": "2014-04-28T11:03:00Z",
+  "note": [
+   "* Առանց Անտառային տնտեսություն և այլ հողօգտագործում ոլորտի\r\n** Աղբյուրը հանդիսանում է Շրջակա միջավայրի նախարարության կողմից մշակված ՀՀ ՋԳ ազգային կադաստրի հաշվետվությունը 1990-2017թթ․ համար: ՋԳ արտանետումների փոփոխությունները պայմանավորված են ավելի բարձր կարգի մեթոդաբանությունների կիրառմամբ և արտանետումների նոր աղբյուրների դիտարկմամբ (http://www.ipcc-nggip.iges.or.jp/public/gp/english/7_Methodological.pdf)\r\n*** Հաշվարկների համար հիմք է ընդունվել ՀԲ-ի կողմից հաշվարկված ՀՆԱ -ն ըստ գնողունակության համարժեքության միջազգային արժույթի 2017թ.-ի հաստատուն գների (http://data.worldbank.org/indicator/NY.GDP.MKTP.PP.KD)\r\n"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "Greenhouse gases",
+   "years**"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Ջերմոցային գազերի արտանետումները* (Գգ CO2 համ.)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "Գգ _ Գիգագրամ (10⁹գ)",
+       "decimals": 15
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "Greenhouse gases": {
+    "label": "ըստ ջերմոցային գազերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ածխածնի երկօքսիդ (СО2), Կտ CO2 համ."
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years**": {
+    "label": "ըստ տարիների*",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "1990"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Ջերմոցային գազերի արտանետումները* (Գգ CO2 համ.)",
+    "description": "Ջերմոցային գազերի արտանետումները* (Գգ CO2 համ.), ըստ ջերմոցային գազերի և տարիների**",
+    "descriptiondefault": false,
+    "heading": [
+     "years**"
+    ],
+    "stub": [
+     "Greenhouse gases"
+    ],
+    "matrix": "EE-b3-1",
+    "subject-code": "EE",
+    "subject-area": "Շրջակա միջավայր"
+   }
+  }
+ }
+}

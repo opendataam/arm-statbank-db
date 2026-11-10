@@ -1,0 +1,181 @@
+{
+ "api_path": "2 Population and social processes/23 Employment and unemployment/PS-eu-25-2024.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:34:33+00:00",
+ "metadata": {
+  "title": "Աշխատանքի գնի ինդեքսն (2013 Q1=100)",
+  "variables": [
+   {
+    "code": "Labour Cost Index, not seasonally adjusted - I Quarter, (2013 Q1=100)Labour Cost Index, not seasonally adjusted - I Quarter, (2013 Q1=100)",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման - I եռամսյակ, (2013 Q1=100)",
+     "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման  - II եռամսյակ, (2013 Q1=100)",
+     "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման  - III եռամսյակ, (2013 Q1=100)",
+     "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման  - IV եռամսյակ, (2013 Q1=100)",
+     "Աշխատանքի գնի ինդեքս` սեզոնային ճշգրտմամբ - I եռամսյակ, (2013 Q1=100)",
+     "Աշխատանքի գնի ինդեքս` սեզոնային ճշգրտմամբ - II եռամսյակ, (2013 Q1=100)",
+     "Աշխատանքի գնի ինդեքս` սեզոնային ճշգրտմամբ - III եռամսյակ, (2013 Q1=100)",
+     "Աշխատանքի գնի ինդեքս` սեզոնային ճշգրտմամբ - IV եռամսյակ, (2013 Q1=100)",
+     "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման - I եռամսյակ, (Qt / Qt-1)",
+     "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման  - II եռամսյակ, (Qt / Qt-1)",
+     "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման  - III եռամսյակ, (Qt / Qt-1)",
+     "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման  - IV եռամսյակ, (Qt / Qt-1)",
+     "Աշխատանքի գնի ինդեքս` սեզոնային ճշգրտմամբ - I եռամսյակ, (Qt / Qt-1)",
+     "Աշխատանքի գնի ինդեքս` սեզոնային ճշգրտմամբ - II եռամսյակ, (Qt / Qt-1)",
+     "Աշխատանքի գնի ինդեքս` սեզոնային ճշգրտմամբ - III եռամսյակ, (Qt / Qt-1)",
+     "Աշխատանքի գնի ինդեքս` սեզոնային ճշգրտմամբ - IV եռամսյակ, (Qt / Qt-1)"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Աշխատանքի գնի ինդեքսն (2013 Q1=100) , ըստ ցուցանիշների և ըստ տարիների",
+  "updated": "2017-06-28T08:49:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "Labour Cost Index, not seasonally adjusted - I Quarter, (2013 Q1=100)Labour Cost Index, not seasonally adjusted - I Quarter, (2013 Q1=100)",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Աշխատանքի գնի ինդեքսն (2013 Q1=100)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "%",
+       "decimals": 12
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "Labour Cost Index, not seasonally adjusted - I Quarter, (2013 Q1=100)Labour Cost Index, not seasonally adjusted - I Quarter, (2013 Q1=100)": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Աշխատանքի գնի ինդեքս` առանց սեզոնային ճշգրտման - I եռամսյակ, (2013 Q1=100)"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Աշխատանքի գնի ինդեքսն (2013 Q1=100)",
+    "description": "Աշխատանքի գնի ինդեքսն (2013 Q1=100) ըստ ցուցանիշների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "Labour Cost Index, not seasonally adjusted - I Quarter, (2013 Q1=100)Labour Cost Index, not seasonally adjusted - I Quarter, (2013 Q1=100)"
+    ],
+    "matrix": "PS-eu-25",
+    "subject-code": "PP",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

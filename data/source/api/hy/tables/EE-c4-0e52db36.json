@@ -1,0 +1,176 @@
+{
+ "api_path": "8 Environment/(C) Water resources/EE-c4.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:50:05+00:00",
+ "metadata": {
+  "title": "(C4)Կենցաղային ջրօգտագործումը մեկ շնչի հաշվով",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Խմելու ջուր, մլն.խոր.մ",
+     "ՀՀ մշտական բնակչության թվաքանակը, մլն. մարդ",
+     "Կենցաղային ջրօգտագործումը մեկ շնչի հաշվով, խոր. մ/տարի"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24"
+    ],
+    "valueTexts": [
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "(C4)Կենցաղային ջրօգտագործումը մեկ շնչի հաշվով , ըստ ցուցանիշների և ըստ տարիների",
+  "source": "<a href='http://www.mnp.am' >  ՀՀ ՇՄՆ </a>",
+  "updated": "2014-09-08T07:26:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "(C4)Կենցաղային ջրօգտագործումը մեկ շնչի հաշվով"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "-",
+       "decimals": 3
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Խմելու ջուր, մլն.խոր.մ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2000"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "(C4)Կենցաղային ջրօգտագործումը մեկ շնչի հաշվով",
+    "description": "(C4)Կենցաղային ջրօգտագործումը մեկ շնչի հաշվով ըստ ցուցանիշների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators"
+    ],
+    "matrix": "EE-c4",
+    "subject-code": "EE",
+    "subject-area": "Շրջակա միջավայր"
+   }
+  }
+ }
+}

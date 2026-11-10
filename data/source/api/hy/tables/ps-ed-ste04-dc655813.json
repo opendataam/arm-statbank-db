@@ -1,0 +1,165 @@
+{
+ "api_path": "2 Population and social processes/22 Education/229 Scientific and technical activity/ps-ed-ste04.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:33:22+00:00",
+ "metadata": {
+  "title": "Գիտատեխնիկական աշխատանքների կատարումն",
+  "variables": [
+   {
+    "code": "cost price",
+    "text": "ըստ ինքնարժեքի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "Ավարտված և պատվիրատուի կողմից ընդունված աշխատանքների փաստացի ծավալը",
+     "Տարեսկզբից կատարված աշխատանքների ծավալը",
+     "     այդ թվում՝ գիտատեխնիկական",
+     "            այդ թվում՝ գիտահետազոտական",
+     "                             դրանից` հիմնարար",
+     "            նախագծակոնստրուկտորական և տեխնոլոգիական",
+     "            փորձնական նմուշների (արտադրանքի)  խմբերի պատրաստում",
+     "            շինարարության համար նախագծային աշխատանքներ",
+     "            գիտատեխնիկական ծառայություններ",
+     "            այլ աշխատանքներ (ծառայություններ)"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Գիտատեխնիկական աշխատանքների կատարումն , ըստ ինքնարժեքի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "cost price",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Գիտատեխնիկական աշխատանքների կատարումն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մլն. դրամ",
+       "decimals": 4
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "cost price": {
+    "label": "ըստ ինքնարժեքի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ավարտված և պատվիրատուի կողմից ընդունված աշխատանքների փաստացի ծավալը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2013"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Գիտատեխնիկական աշխատանքների կատարումն",
+    "description": "Գիտատեխնիկական գործունեությունն ըստ ինքնարժեքի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "cost price"
+    ],
+    "matrix": "ps-ed-ste04",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "api_path": "2 Population and social processes/22 Education/229 Scientific and technical activity/ps-ed-ste12.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:33:52+00:00",
+ "metadata": {
+  "title": "Հետազոտությունների և մշակումների վրա կատարված համախառն ծախսերն",
+  "variables": [
+   {
+    "code": "fields of science",
+    "text": "ըստ գիտության ճյուղի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Բնական գիտություններ",
+     "Տեխնիկական գիտություններ",
+     "Բժշկական գիտություններ",
+     "Գյուղատնտեսական գիտություններ",
+     "Հասարակական գիտություններ",
+     "Հումանիտար գիտություններ",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Հետազոտությունների և մշակումների վրա կատարված համախառն ծախսերն , ըստ գիտության ճյուղի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "fields of science",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Հետազոտությունների և մշակումների վրա կատարված համախառն ծախսերն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մլն. դրամ",
+       "decimals": 4
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "fields of science": {
+    "label": "ըստ գիտության ճյուղի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Բնական գիտություններ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Հետազոտությունների և մշակումների վրա կատարված համախառն ծախսերն",
+    "description": "Հետազոտությունների և մշակումների վրա կատարված համախառն ծախսերն ըստ գիտության ճյուղի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "fields of science"
+    ],
+    "matrix": "ps-ed-ste12",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

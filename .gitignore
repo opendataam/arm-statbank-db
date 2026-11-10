@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Build outputs (the database is published as a release artifact, not committed)
+build/
+*.duckdb
+*.duckdb.wal
+*.building.duckdb
+
+# Generated translation work files (the memory itself, data/translations/*.jsonl, is committed)
+data/translations/pending/
+data/source/api/*/errors.json
+*.tmp
+
+.DS_Store

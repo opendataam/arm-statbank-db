@@ -1,0 +1,221 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2409-si-nchs/ps-si-nchs03.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:38:57+00:00",
+ "metadata": {
+  "title": "Կենտրոնացված հաշվառման վերցված որդեգրողի թեկնածուների թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Թեկնածուների թվաքանակը, ընդամենը",
+     "Թեկնածուների թվաքանակը, կանայք"
+    ]
+   },
+   {
+    "code": "age groups",
+    "text": "ըստ տարիքային խմբերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "18-ից մինչև 30 տարեկան",
+     "30-ից մինչև 65 տարեկան",
+     "65 և բարձր տարիքի",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "social status",
+    "text": "ըստ քաղաքացիության",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "ՀՀ քաղաքացիներ",
+     "Օտարերկրյա քաղաքացիներ",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Կենտրոնացված հաշվառման վերցված որդեգրողի թեկնածուների թվաքանակն , ըստ ցուցանիշների, ըստ տարիքային խմբերի, ըստ քաղաքացիության և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "age groups",
+   "social status",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Կենտրոնացված հաշվառման վերցված որդեգրողի թեկնածուների թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Թեկնածուների թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "age groups": {
+    "label": "ըստ տարիքային խմբերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "18-ից մինչև 30 տարեկան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "social status": {
+    "label": "ըստ քաղաքացիության",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՀՀ քաղաքացիներ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Կենտրոնացված հաշվառման վերցված որդեգրողի թեկնածուների թվաքանակն",
+    "description": "Կենտրոնացված հաշվառման վերցված որդեգրողի թեկնածուների թվաքանակն ըստ ցուցանիշների, տարիքային խմբերի, քաղաքացիության և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "age groups",
+     "social status"
+    ],
+    "matrix": "ps-si-nchs03",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

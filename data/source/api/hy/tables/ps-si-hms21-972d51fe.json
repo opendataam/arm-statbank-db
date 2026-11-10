@@ -1,0 +1,179 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2401-si-hms/ps-si-hms21.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:35:24+00:00",
+ "metadata": {
+  "title": "Հղիության ընդհատումների քանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Հղիության ընդհատումների քանակը",
+     "Առաջնային հղիություն ունեցողների մոտ ընդհատումների քանակը"
+    ]
+   },
+   {
+    "code": "age groups",
+    "text": "ըստ տարիքային խմբերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "15 - 17 տարեկան",
+     "18 - 19 տարեկան",
+     "20 - 34 տարեկան",
+     "35 և բարձր տարիքի",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Հղիության ընդհատումների քանակն , ըստ ցուցանիշների, ըստ տարիքային խմբերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "age groups",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Հղիության ընդհատումների քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հղիության ընդհատումների քանակը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "age groups": {
+    "label": "ըստ տարիքային խմբերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "15 - 17 տարեկան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2016"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Հղիության ընդհատումների քանակն",
+    "description": "Հղիության ընդհատումների քանակն ըստ ցուցանիշների, տարիքային խմբերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "age groups"
+    ],
+    "matrix": "ps-si-hms21",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "api_path": "2 Population and social processes/21 Culture/218 Archival activity/ps-cl-ac05.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:28:40+00:00",
+ "metadata": {
+  "title": "Տեղեկատու-որոնողական համակարգի ստեղծումն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "valueTexts": [
+     "Փաստաթղթային տեղեկության ներառում համակարգիչ",
+     "Ցուցակների թվայնացում, ցուցակ",
+     "Ցուցակների թվայնացում, վերնագիր",
+     "Փաստաթղթերի թվայնացում, պատկեր",
+     "Փաստաթղթերի թվայնացում, պահպանման միավոր"
+    ]
+   },
+   {
+    "code": "types of documents",
+    "text": "ըստ փաստաթղթի տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Մշտական պահպանության",
+     "Անձնական ծագման",
+     "Գիտատեխնիկական",
+     "Կինո",
+     "Ֆոտո",
+     "Ֆոնո",
+     "Անձնակազմին վերաբերող"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տեղեկատու-որոնողական համակարգի ստեղծումն , ըստ ցուցանիշների, ըստ փաստաթղթի տեսակի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "types of documents",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տեղեկատու-որոնողական համակարգի ստեղծումն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Փաստաթղթային տեղեկության ներառում համակարգիչ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "types of documents": {
+    "label": "ըստ փաստաթղթի տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մշտական պահպանության"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2016"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տեղեկատու-որոնողական համակարգի ստեղծումն",
+    "description": "Տեղեկատու-որոնողական համակարգի ստեղծումն ըստ ցուցանիշների, մարզերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "types of documents"
+    ],
+    "matrix": "ps-cl-ac05",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

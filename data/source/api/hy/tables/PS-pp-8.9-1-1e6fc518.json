@@ -1,0 +1,191 @@
+{
+ "api_path": "2 Population and social processes/20 Census/PS-pp-8.9-1.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:30+00:00",
+ "metadata": {
+  "title": "Տնային տնտեսությունների քանակն ըստ",
+  "variables": [
+   {
+    "code": "settlement",
+    "text": "բնակավայր",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "ՀՀ",
+     "Քաղաք",
+     "Գյուղ"
+    ]
+   },
+   {
+    "code": "Main source of heating",
+    "text": "Ջեռուցման հիմնական միջոցը",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Բնական գազով կամ էլեկտրական էներգիայով աշխատող ջեռուցման անհատական համակարգ",
+     "Փայտով աշխատող ջեռուցման անհատական համակարգ",
+     "Պինդ կենսավառելիքի այլ տեսակներով (բրիկետ, պալետ) աշխատող ջեռուցման անհատական համակարգ",
+     "Կենտրոնացված ջեռուցում",
+     "Գազի վառարան",
+     "Էլեկտրական տաքացուցիչ",
+     "Փայտով ջեռուցվող վառարան",
+     "Պինդ կենսավառելիքի  (բրիկետ, պալետ) այլ տեսակներով ջեռուցվող վառարան",
+     "Արևային ֆոտովոլտային կայան",
+     "Այլ",
+     "Ջեռուցման հիմնական միջոց չունի",
+     "Ջեռուցման հիմնական միջոցը նշված չէ"
+    ]
+   },
+   {
+    "code": "typehous",
+    "text": "տեսակ գույքի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Հիմնական",
+     "Բարաք/ժամանակավոր կացարան",
+     "Հասարակական նշանակության շենք/շինություն",
+     "Համատեղ բնակության շինություն",
+     "Այլ` բնակության համար հարմարեցված շինություն",
+     "Անշարժ գույքի տեսակը նշված չէ"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնային տնտեսությունների քանակն ըստ , բնակավայր, Ջեռուցման հիմնական միջոցը և տեսակ գույքի",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "settlement",
+   "Main source of heating",
+   "typehous"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնային տնտեսությունների քանակն ըստ"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "Տ/Տ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "settlement": {
+    "label": "բնակավայր",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՀՀ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "Main source of heating": {
+    "label": "Ջեռուցման հիմնական միջոցը",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "typehous": {
+    "label": "տեսակ գույքի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնային տնտեսությունների քանակն ըստ",
+    "description": "Տնային տնտեսությունների քանակն ըստ բնակելի միավորի ջեռուցման հիմնական միջոցի և անշարժ գույքի տեսակի",
+    "descriptiondefault": false,
+    "heading": [
+     "typehous"
+    ],
+    "stub": [
+     "settlement",
+     "Main source of heating"
+    ],
+    "matrix": "PS-pp-8.9-1",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

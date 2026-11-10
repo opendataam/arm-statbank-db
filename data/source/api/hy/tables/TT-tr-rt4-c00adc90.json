@@ -1,0 +1,163 @@
+{
+ "api_path": "4 Transport and tourism/41 Transport/4103 Road transport/TT-tr-rt4.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:46:11+00:00",
+ "metadata": {
+  "title": "Բեռների և ուղևորների փոխադրման միջին հեռավորությունն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "Բեռների փոխադրման միջին հեռավորությունը",
+     "Ընդհանուր օգտագործման ավտոմոբիլային տրանսպորտով բեռների փոխադրման միջին հեռավորությունը",
+     "Ուղևորների փոխադրման միջին հեռավորությունը",
+     "Ընդհանուր օգտագործման ավտոմոբիլային տրանսպորտով ուղևորների փոխադրման միջին հեռավորությունը (ներառյալ թեթև մարդատար տաքսիների աշխատանքը)"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17"
+    ],
+    "valueTexts": [
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Բեռների և ուղևորների փոխադրման միջին հեռավորությունն , ըստ ցուցանիշների և ըստ տարիների",
+  "updated": "2021-08-11T04:00:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Բեռների և ուղևորների փոխադրման միջին հեռավորությունն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "կմ",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Բեռների փոխադրման միջին հեռավորությունը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2007"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Բեռների և ուղևորների փոխադրման միջին հեռավորությունն",
+    "description": "Բեռների և ուղևորների փոխադրման միջին հեռավորությունն ըստ ցուցանիշների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators"
+    ],
+    "matrix": "TT-tr-rt4",
+    "subject-code": "TT",
+    "subject-area": "Transport and tourism"
+   }
+  }
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "api_path": "6 Agriculture, forestry and fishing/61 Agricultural Census 2014/GHH-3.7-2014.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:48:12+00:00",
+ "metadata": {
+  "title": "Տնտեսություններն (առ 10.10.2014թ.) ըստ իրավական կարգավիճակի , մարզերի և պտղատու այգիների (ներառյալ տնկարանները) տարածությունների չափերի",
+  "variables": [
+   {
+    "code": "legal status",
+    "text": "ըստ իրավական կարգավիճակի ",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Ֆիզիկական անձի կարգավիճակով",
+     "Իրավաբանական անձի կարգավիճակով"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն, ընդամենը",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "ք. Երևան"
+    ]
+   },
+   {
+    "code": "types of perennial plantings",
+    "text": "ըստ պտղատու այգիների (ներառյալ տնկարանները) տարածությունների չափերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13"
+    ],
+    "valueTexts": [
+     "Տնտեսություններ, ընդամենը",
+     "մինչև 0.1",
+     "0.1-0.19",
+     "0.2-0.49",
+     "0.5-0.99",
+     "1-1.99",
+     "2-2.99",
+     "3-4.99",
+     "5-9.99",
+     "10-19.99",
+     "20-49.99",
+     "50 -99",
+     "100-199",
+     "200 և ավելի"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնտեսություններն (առ 10.10.2014թ.) , ըստ իրավական կարգավիճակի , ըստ մարզերի և ըստ պտղատու այգիների (ներառյալ տնկարանները) տարածությունների չափերի",
+  "updated": "2017-04-26T13:24:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "legal status",
+   "marzes",
+   "types of perennial plantings"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնտեսություններն (առ 10.10.2014թ.)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "legal status": {
+    "label": "ըստ իրավական կարգավիճակի ",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ֆիզիկական անձի կարգավիճակով"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "types of perennial plantings": {
+    "label": "ըստ պտղատու այգիների (ներառյալ տնկարանները) տարածությունների չափերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Տնտեսություններ, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնտեսություններն (առ 10.10.2014թ.)",
+    "descriptiondefault": false,
+    "heading": [
+     "types of perennial plantings"
+    ],
+    "stub": [
+     "legal status",
+     "marzes"
+    ],
+    "matrix": "GHH-3.7",
+    "subject-code": "GHH",
+    "subject-area": "Գյուղատնտեսական համատարած հաշվառում"
+   }
+  }
+ }
+}

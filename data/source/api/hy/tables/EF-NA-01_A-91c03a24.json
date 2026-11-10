@@ -1,0 +1,204 @@
+{
+ "api_path": "1 Econnomy and finance/15 National Accounts/EF-NA-01 A.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:24:09+00:00",
+ "metadata": {
+  "title": "Տնտեսական ակտիվության ցուցանիշը սեզոնային ճշգրտումով (2019=100)",
+  "variables": [
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ]
+   },
+   {
+    "code": "months",
+    "text": "ըստ ամիսների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հունվար",
+     "Փետրվար",
+     "Մարտ",
+     "Ապրիլ",
+     "Մայիս",
+     "Հունիս",
+     "Հուլիս",
+     "Օգոստոս",
+     "Սեպտեմբեր",
+     "Հոկտեմբեր",
+     "Նոյեմբեր",
+     "Դեկտեմբեր"
+    ]
+   },
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Շղթայակապ ինդեքսներ (2019=100)",
+     "Շղթայակապ ինդեքսներ սեզոնային ճշգրտումով, % (2019=100)"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնտեսական ակտիվության ցուցանիշը սեզոնային ճշգրտումով (2019=100) , ըստ տարիների, ըստ ամիսների և ըստ ցուցանիշների",
+  "updated": "2013-01-30T05:54:00Z",
+  "note": [
+   "*Սեզոնային ճշգրտումներն իրականացվում են X13-ARIMA-SEATS մեթոդով և JDemetra+ 2.2.2 ծրագրի կիրառմամբ:  *Սեզոնային ճշգրտված տվյալները վերանայվում են ՝ հաշվետու ամսվան նախորդող 3-րդ տարվա համապատասխան ամսվանից սկսած:"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "years",
+   "months",
+   "indicators"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնտեսական ակտիվության ցուցանիշը սեզոնային ճշգրտումով (2019=100)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "%",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "months": {
+    "label": "ըստ ամիսների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հունվար"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Շղթայակապ ինդեքսներ (2019=100)"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնտեսական ակտիվության ցուցանիշը սեզոնային ճշգրտումով (2019=100)",
+    "description": "Տնտեսական ակտիվության ցուցանիշը սեզոնային ճշգրտումով (2019=100) ըստ տարիների, ամիսների և ցուցանիշների",
+    "descriptiondefault": false,
+    "heading": [
+     "indicators"
+    ],
+    "stub": [
+     "years",
+     "months"
+    ],
+    "matrix": "EF-na-01A",
+    "subject-code": "EF",
+    "subject-area": "Էկոնոմիկա և ֆինանսներ"
+   }
+  }
+ }
+}

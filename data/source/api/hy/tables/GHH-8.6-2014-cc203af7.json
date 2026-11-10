@@ -1,0 +1,146 @@
+{
+ "api_path": "6 Agriculture, forestry and fishing/61 Agricultural Census 2014/GHH-8.6-2014.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:48:42+00:00",
+ "metadata": {
+  "title": "Գյուղատնտեսական աշխատանքների համար ձի կամ այլ կենդանի բանող ուժ օգտագործած տնտեսությունների քանակն  (01.08.2013-31.07.2014) ըստ մարզերի և իրավական կարգավիճակի",
+  "variables": [
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի  Հանրապետություն, ընդամենը",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "ք. Երևան"
+    ]
+   },
+   {
+    "code": "legal status",
+    "text": "ըստ իրավական կարգավիճակի",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "ֆիզիկական անձի կարգավիճակով",
+     "Իրավաբանական անձի կարգավիճակով"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Գյուղատնտեսական աշխատանքների համար ձի կամ այլ կենդանի բանող ուժ օգտագործած տնտեսությունների քանակն  (01.08.2013-31.07.2014) , ըստ մարզերի և ըստ իրավական կարգավիճակի",
+  "updated": "2017-04-10T06:58:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "marzes",
+   "legal status"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Գյուղատնտեսական աշխատանքների համար ձի կամ այլ կենդանի բանող ուժ օգտագործած տնտեսությունների քանակն  (01.08.2013-31.07.2014)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի  Հանրապետություն, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "legal status": {
+    "label": "ըստ իրավական կարգավիճակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ֆիզիկական անձի կարգավիճակով"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Գյուղատնտեսական աշխատանքների համար ձի կամ այլ կենդանի բանող ուժ օգտագործած տնտեսությունների քանակն  (01.08.2013-31.07.2014)",
+    "descriptiondefault": false,
+    "heading": [
+     "legal status"
+    ],
+    "stub": [
+     "marzes"
+    ],
+    "matrix": "GHH-8.6",
+    "subject-code": "GHH",
+    "subject-area": "Գյուղատնտեսական համատարած հաշվառում"
+   }
+  }
+ }
+}

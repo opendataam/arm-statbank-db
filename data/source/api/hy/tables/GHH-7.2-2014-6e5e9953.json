@@ -1,0 +1,178 @@
+{
+ "api_path": "6 Agriculture, forestry and fishing/61 Agricultural Census 2014/GHH-7.2-2014.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:48:32+00:00",
+ "metadata": {
+  "title": "Ձկնաբուծությամբ զբաղվող տնտեսությունների քանակն (01.08.2012-31.07.2013թթ.) ըստ մարզերի, իրավական կարգավիճակի և ջրավազանների լցման համար ջրաղբյուրներներից օգտվելու մեթոդների",
+  "variables": [
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն, ընդամենը",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "ք. Երևան"
+    ]
+   },
+   {
+    "code": "legal status",
+    "text": "ըստ իրավական կարգավիճակի",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Ֆիզիկական անձի կարգավիճակով",
+     "Իրավաբանական անձի կարգավիճակով"
+    ]
+   },
+   {
+    "code": "agricultural holdings and areas of fish-farming basins",
+    "text": "ըստ ջրավազանների լցման համար ջրաղբյուրներներից օգտվելու մեթոդների",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Տնտեսություններ, ընդամենը",
+     "ստորգետնյա մեթոդից օգտվող տնտեսություններ",
+     "մակերևու-թային մեթոդից օգտվող տնտեսություններ"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Ձկնաբուծությամբ զբաղվող տնտեսությունների քանակն (01.08.2012-31.07.2013թթ.) , ըստ մարզերի, ըստ իրավական կարգավիճակի և ըստ ջրավազանների լցման համար ջրաղբյուրներներից օգտվելու մեթոդների",
+  "updated": "2017-04-11T13:24:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "marzes",
+   "legal status",
+   "agricultural holdings and areas of fish-farming basins"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Ձկնաբուծությամբ զբաղվող տնտեսությունների քանակն (01.08.2012-31.07.2013թթ.)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "(միավոր)",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "legal status": {
+    "label": "ըստ իրավական կարգավիճակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ֆիզիկական անձի կարգավիճակով"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "agricultural holdings and areas of fish-farming basins": {
+    "label": "ըստ ջրավազանների լցման համար ջրաղբյուրներներից օգտվելու մեթոդների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Տնտեսություններ, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Ձկնաբուծությամբ զբաղվող տնտեսությունների քանակն (01.08.2012-31.07.2013թթ.)",
+    "descriptiondefault": false,
+    "heading": [
+     "legal status",
+     "agricultural holdings and areas of fish-farming basins"
+    ],
+    "stub": [
+     "marzes"
+    ],
+    "matrix": "GHH-7.2",
+    "subject-code": "GHH",
+    "subject-area": "Գյուղատնտեսական համատարած հաշվառում"
+   }
+  }
+ }
+}

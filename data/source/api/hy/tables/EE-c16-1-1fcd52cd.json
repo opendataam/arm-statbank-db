@@ -1,0 +1,178 @@
+{
+ "api_path": "8 Environment/(C) Water resources/13.(C16) Polluted waste water (without purification and insufficiently purified waste water), by years/EE-c16-1.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:49:24+00:00",
+ "metadata": {
+  "title": "Աղտոտված կեղտաջրերի ծավալն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Աղտոտված կեղտաջրեր (առանց մաքրման և ոչ բավարար մաքրված),մլն.խոր.մ",
+     "'Աղտոտված կեղտաջրեր (առանց մաքրման և ոչ բավարար մաքրված),%-ով ընդհանուր կեղտաջրերի նկատմամբ'"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26"
+    ],
+    "valueTexts": [
+     "1990",
+     "1995",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Աղտոտված կեղտաջրերի ծավալն , ըստ ցուցանիշների և ըստ տարիների",
+  "source": "<a href='http://www.mnp.am'>ՀՀ ՇՄՆ</a>",
+  "updated": "2014-09-08T07:44:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Աղտոտված կեղտաջրերի ծավալն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "-",
+       "decimals": 2
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Աղտոտված կեղտաջրեր (առանց մաքրման և ոչ բավարար մաքրված),մլն.խոր.մ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "1990"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 2,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Աղտոտված կեղտաջրերի ծավալն",
+    "description": "Աղտոտված կեղտաջրերի ծավալն ըստ ցուցանիշների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators"
+    ],
+    "matrix": "EE-c16-1",
+    "subject-code": "EE",
+    "subject-area": "Շրջակա միջավայր"
+   }
+  }
+ }
+}

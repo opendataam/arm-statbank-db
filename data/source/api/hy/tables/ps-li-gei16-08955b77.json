@@ -1,0 +1,171 @@
+{
+ "api_path": "2 Population and social processes/29 Legal issues/2906-li-gei/ps-li-gei16.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:43:59+00:00",
+ "metadata": {
+  "title": "Անչափահաս դատապարտվածների թվաքանակն",
+  "variables": [
+   {
+    "code": "crimes",
+    "text": "ըստ հանցագործությունների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "valueTexts": [
+     "Գողություն",
+     "Կողոպուտ",
+     "Ավազակություն",
+     "Խարդախություն",
+     "Սպանություն",
+     "Դիտավորությամբ առողջությանը ծանր վնաս պատճառելը",
+     "Առողջությանը թեթև վնաս պատճառելը",
+     "Խուլիգանություն",
+     "Թմրամիջոցների հետ կապված հանցագործություններ",
+     "Այլ հանցագործություններ",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14"
+    ],
+    "valueTexts": [
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Անչափահաս դատապարտվածների թվաքանակն , ըստ հանցագործությունների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "crimes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Անչափահաս դատապարտվածների թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "crimes": {
+    "label": "ըստ հանցագործությունների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Գողություն"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2011"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Անչափահաս դատապարտվածների թվաքանակն",
+    "description": "Անչափահաս դատապարտվածների թվաքանակն ըստ հանցագործությունների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "crimes"
+    ],
+    "matrix": "ps-li-gei16",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

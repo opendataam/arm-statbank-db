@@ -1,0 +1,223 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2406-si-nfr/ps-si-nfr10.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:37:55+00:00",
+ "metadata": {
+  "title": "Նպաստառուների թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Նպաստառուների թվաքանակը, ընդամենը",
+     "Նպաստառուների թվաքանակը, կանայք"
+    ]
+   },
+   {
+    "code": "type of allowances",
+    "text": "ըստ նպաստի տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "Ծերության",
+     "Հաշմանդամության",
+     "Կերակրողին կորցնելու դեպքում",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "sex groups",
+    "text": "ըստ սեռատարիքային խմբերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Մինչև 51 տարեկան",
+     "51 - 55 տարեկան",
+     "56 - 62 տարեկան",
+     "63 - 70 տարեկան",
+     "71 - 75 տարեկան",
+     "76 - 80 տարեկան",
+     "81 և բարձր",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Նպաստառուների թվաքանակն , ըստ ցուցանիշների, ըստ նպաստի տեսակի, ըստ սեռատարիքային խմբերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "type of allowances",
+   "sex groups",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Նպաստառուների թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Նպաստառուների թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "type of allowances": {
+    "label": "ըստ նպաստի տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ծերության"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "sex groups": {
+    "label": "ըստ սեռատարիքային խմբերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մինչև 51 տարեկան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2014"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Նպաստառուների թվաքանակն",
+    "description": "Նպաստառուների թվաքանակն ըստ ցուցանիշների, նպաստի տեսակի, սեռատարիքային խմբերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "type of allowances",
+     "sex groups"
+    ],
+    "matrix": "ps-si-nfr10",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

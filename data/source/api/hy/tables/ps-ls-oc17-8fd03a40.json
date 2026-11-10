@@ -1,0 +1,155 @@
+{
+ "api_path": "2 Population and social processes/29 Legal issues/2904-ls-oc/ps-ls-oc17.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:43:09+00:00",
+ "metadata": {
+  "title": "Վարչական իրավախախտումներն 2011-2020թթ.",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Վարչական իրավախախտումների քանակը, միավոր",
+     "Անձանց թվաքանակը, որոնց վերաբերյալ կայացվել են որոշումներ (վճիռներ), մարդ",
+     "  վարչական տույժերի ենթարկելու մասին",
+     "  որոշումների ժամանակավոր կասեցման մասին",
+     "  վարչական գործի վարույթի կարճման մասին",
+     "    հասարարական կազմակերպության, աշխա-տանքային կոլեկտիվի քննարկմանը նյութերի հանձման հետ",
+     "    դատախազին, նախաքննական կամ հետաքննական մարմնին նյութերի հանձնման հետ",
+     "    այլ հանգամանքների հետ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Վարչական իրավախախտումներն 2011-2020թթ. , ըստ ցուցանիշների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Վարչական իրավախախտումներն 2011-2020թթ."
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Վարչական իրավախախտումների քանակը, միավոր"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2011"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Վարչական իրավախախտումներն 2011-2020թթ.",
+    "description": "Վարչական իրավախախտումներն ըստ ցուցանիշների և տարիների 2011-2020թթ.",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators"
+    ],
+    "matrix": "ps-ls-oc17",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

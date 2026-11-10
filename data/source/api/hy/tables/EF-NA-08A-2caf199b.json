@@ -1,0 +1,168 @@
+{
+ "api_path": "1 Econnomy and finance/15 National Accounts/151 SNA 2008/1511 Annual data/EF-NA-08A.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:20:09+00:00",
+ "metadata": {
+  "title": "ՀՆԱ-ն բնակչության մեկ շնչի հաշվով",
+  "variables": [
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13"
+    ],
+    "valueTexts": [
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   },
+   {
+    "code": "GDP per capita by SNA 2008",
+    "text": "ՀՆԱ-ն բնակչության մեկ շնչի հաշվով ըստ ԱՀՀ 2008",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "valueTexts": [
+     "ՀՆԱ, մլն. դրամ",
+     " ՀՆԱ, մլն. ԱՄՆ դոլար",
+     "ՀՆԱ, մլն. եվրո",
+     "ՀՆԱ-ն  բնակչության մեկ  շնչի հաշվով, դրամ",
+     "ՀՆԱ-ն  բնակչության մեկ  շնչի հաշվով, դոլար",
+     "ՀՆԱ-ն  բնակչության մեկ շնչի հաշվով եվրո",
+     " Տեղեկատու՝ դրամ/ԱՄՆ դոլար միջին տարեկան փոխարժեքը",
+     "Տեղեկատու՝ դրամ/եվրո միջին տարեկան փոխարժեք",
+     " Տեղեկատու՝ ՀՀ մշտական բնակչության միջին տարեկան թվաքանակը, հազ. մարդ"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "ՀՆԱ-ն բնակչության մեկ շնչի հաշվով , ըստ տարիների և ՀՆԱ-ն բնակչության մեկ շնչի հաշվով ըստ ԱՀՀ 2008",
+  "updated": "2021-04-28T04:00:00Z",
+  "note": [
+   "* ՀՀ մշտական բնակչության միջին տարեկան թվաքանակը  հաշվարկված է 2011թ. ՀՀ մարդահամարի արդյունքների հիման վրա"
+  ],
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "years",
+   "GDP per capita by SNA 2008"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "ՀՆԱ-ն բնակչության մեկ շնչի հաշվով"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "ընթացիկ գներով",
+       "decimals": 2
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2012"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "GDP per capita by SNA 2008": {
+    "label": "ՀՆԱ-ն բնակչության մեկ շնչի հաշվով ըստ ԱՀՀ 2008",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՀՆԱ, մլն. դրամ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "ՀՆԱ-ն բնակչության մեկ շնչի հաշվով",
+    "description": "ՀՆԱ-ն բնակչության մեկ շնչի հաշվով ըստ ԱՀՀ 2008 և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "GDP per capita by SNA 2008"
+    ],
+    "stub": [
+     "years"
+    ],
+    "matrix": "EF-na-08A",
+    "subject-code": "EF",
+    "subject-area": "Economy and finance"
+   }
+  }
+ }
+}

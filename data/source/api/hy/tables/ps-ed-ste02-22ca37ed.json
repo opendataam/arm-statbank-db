@@ -1,0 +1,153 @@
+{
+ "api_path": "2 Population and social processes/22 Education/229 Scientific and technical activity/ps-ed-ste02.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:33:13+00:00",
+ "metadata": {
+  "title": "Կազմակերպությունների քանակն 2014-2022թթ.",
+  "variables": [
+   {
+    "code": "the main types of economic activities",
+    "text": "ըստ տնտեսական գործունեության հիմնական տեսակների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Գյուղատնտեսություն, անտառային տնտեսություն և ձկնորսություն (A)",
+     "Մշակող արդյունաբերություն (C)",
+     "Մասնագիտական, գիտական և տեխնիկական գործունեություն (M)",
+     "Վարչարարական և օժանդակ գործունեություն (N)",
+     "Կրթություն (P)",
+     "Առողջապահություն և բնակչության սոցիալական սպասարկում (Q)",
+     "Մշակույթ, զվարճություններ և հանգիստ (R)",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "valueTexts": [
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Կազմակերպությունների քանակն 2014-2022թթ. , ըստ տնտեսական գործունեության հիմնական տեսակների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "the main types of economic activities",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Կազմակերպությունների քանակն 2014-2022թթ."
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "the main types of economic activities": {
+    "label": "ըստ տնտեսական գործունեության հիմնական տեսակների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Գյուղատնտեսություն, անտառային տնտեսություն և ձկնորսություն (A)"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2014"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Կազմակերպությունների քանակն 2014-2022թթ.",
+    "description": "Կազմակերպությունների քանակն ըստ տնտեսական գործունեության հիմնական տեսակների և տարիների 2014-2022թթ.",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "the main types of economic activities"
+    ],
+    "matrix": "ps-ed-ste02",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

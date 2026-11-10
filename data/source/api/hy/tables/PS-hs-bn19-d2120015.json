@@ -1,0 +1,177 @@
+{
+ "api_path": "2 Population and social processes/26 Housing/261 Bnakfond/PS-hs-bn19.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:40:27+00:00",
+ "metadata": {
+  "title": "Երևան քաղաքի բազմաբնակարան շենքերի քանակն",
+  "variables": [
+   {
+    "code": "administrative regions",
+    "text": "ըստ վարչական շրջանների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "valueTexts": [
+     "Աջափնյակ",
+     "Ավան",
+     "Արաբկիր",
+     "Դավթաշեն",
+     "Էրեբունի",
+     "Կենտրոն",
+     "Մալաթիա - Սեբաստիա",
+     "Նոր - Նորք",
+     "Նորք - Մարաշ",
+     "Նուբարաշեն",
+     "Շենգավիթ",
+     "Քանաքեռ - Զեյթուն",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Երևան քաղաքի բազմաբնակարան շենքերի քանակն , ըստ վարչական շրջանների և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "administrative regions",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Երևան քաղաքի բազմաբնակարան շենքերի քանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "administrative regions": {
+    "label": "ըստ վարչական շրջանների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Աջափնյակ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Երևան քաղաքի բազմաբնակարան շենքերի քանակն",
+    "description": "Երևան քաղաքի բազմաբնակարան շենքերի քանակն ըստ վարչական շրջանների և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "administrative regions"
+    ],
+    "matrix": "ps-hsbn19",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

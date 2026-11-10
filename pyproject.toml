@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "armstat-db"
+version = "0.1.0"
+description = "Trilingual (Armenian, English, Russian) DuckDB database of the Armstat Statbank (statbank.armstat.am)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "OpenData Armenia" }]
+keywords = ["armenia", "armstat", "statistics", "duckdb", "pxweb", "json-stat", "open-data"]
+dependencies = [
+    "duckdb>=1.1",
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+translate = ["anthropic>=1.0"]
+dev = ["pytest>=8", "ruff>=0.5"]
+
+[project.scripts]
+armstat-db = "armstat_db.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/armstat_db"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]

@@ -1,0 +1,193 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2406-si-nfr/ps-si-nfr12.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:37:55+00:00",
+ "metadata": {
+  "title": "Նպաստի միջին չափն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Նպաստի միջին չափը",
+     "Նոր նշանակված նպաստի միջին չափը"
+    ]
+   },
+   {
+    "code": "type of allowances",
+    "text": "ըստ նպաստի տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "Ծերության",
+     "Հաշմանդամության",
+     "  I խումբ և ֆունկցիոնալության խորը աստիճանի սահմանափակում ունեցող անձ",
+     "  II խումբ և ֆունկցիոնալության ծանր աստիճանի սահմանափակում ունեցող անձ",
+     "  III խումբ և ֆունկցիոնալության միջին աստիճանի սահմանափակում ունեցող անձ",
+     "  մինչև 18 տարեկան հաշմանդամ երեխա",
+     "Կերակրողին կորց-նելու դեպքում",
+     "  մեկ կերակրողին",
+     "  երկու կերակրողին",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Նպաստի միջին չափն , ըստ ցուցանիշների, ըստ նպաստի տեսակի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "type of allowances",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Նպաստի միջին չափն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "դրամ",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Նպաստի միջին չափը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "type of allowances": {
+    "label": "ըստ նպաստի տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ծերության"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2014"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Նպաստի միջին չափն",
+    "description": "Նպաստի միջին չափն ըստ ցուցանիշների, նպաստի տեսակի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "type of allowances"
+    ],
+    "matrix": "ps-si-nfr12",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

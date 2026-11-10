@@ -1,0 +1,187 @@
+{
+ "api_path": "2 Population and social processes/20 Census/PS-pp-7.1.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:11+00:00",
+ "metadata": {
+  "title": "Տնային տնտեսություններն",
+  "variables": [
+   {
+    "code": "settlement",
+    "text": "բնակավայր",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "ՀՀ",
+     "Քաղաք",
+     "Գյուղ"
+    ]
+   },
+   {
+    "code": "structure",
+    "text": "կազմ",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "1 անձ",
+     "2 անձ",
+     "3 անձ",
+     "4 անձ",
+     "5 անձ",
+     "6 անձ",
+     "7 անձ",
+     "8 անձ",
+     "9 անձ",
+     "10+ անձ"
+    ]
+   },
+   {
+    "code": "number of family nuclei",
+    "text": "նուկլեար ընտանիքների թվի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "1 նուկլեար ընտանիք",
+     "2 նուկլեար ընտանիք",
+     "3 նուկլեար ընտանիք",
+     "4 նուկլեար ընտանիք",
+     "5 նուկլեար ընտանիք",
+     "Նուկլեար  ընտանիք չպարունակող Տ/Տ"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնային տնտեսություններն , բնակավայր, կազմ և նուկլեար ընտանիքների թվի",
+  "updated": "2025-09-12T13:00:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "settlement",
+   "structure",
+   "number of family nuclei"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնային տնտեսություններն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "Տ/Տ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "settlement": {
+    "label": "բնակավայր",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՀՀ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "structure": {
+    "label": "կազմ",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "number of family nuclei": {
+    "label": "նուկլեար ընտանիքների թվի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնային տնտեսություններն",
+    "description": "Տնային տնտեսություններն ըստ կազմի և նուկլեար ընտանիքների թվի",
+    "descriptiondefault": false,
+    "heading": [
+     "number of family nuclei"
+    ],
+    "stub": [
+     "settlement",
+     "structure"
+    ],
+    "matrix": "PS-pp-7.1",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

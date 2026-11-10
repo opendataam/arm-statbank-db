@@ -1,0 +1,163 @@
+{
+ "api_path": "2 Population and social processes/21 Culture/211 Activity of libraries/ps-cl-nl05.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:40+00:00",
+ "metadata": {
+  "title": "Տացքն (սպասարկված հավաքածուն)",
+  "variables": [
+   {
+    "code": "content",
+    "text": "ըստ բովանդակության",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "valueTexts": [
+     "Հասարակաքաղաքական",
+     "Բնական գիտություններ, բժշկություն",
+     "Տեխնիկական, գյուղատնտեսական և տնտեսագիտական",
+     "Մշակույթ, ֆիզկուլտուրա և սպորտ",
+     "Բանասիրական, գիտական և գեղարվեստական գրականություն",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "valueTexts": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տացքն (սպասարկված հավաքածուն) , ըստ բովանդակության և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "content",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տացքն (սպասարկված հավաքածուն)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "հազ. օրինակ",
+       "decimals": 1
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "content": {
+    "label": "ըստ բովանդակության",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հասարակաքաղաքական"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2010"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 1,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տացքն (սպասարկված հավաքածուն)",
+    "description": "Տացքն (սպասարկված հավաքածուն) ըստ բովանդակության և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "content"
+    ],
+    "matrix": "ps-cl-nl05",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

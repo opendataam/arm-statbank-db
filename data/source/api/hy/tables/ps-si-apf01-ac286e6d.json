@@ -1,0 +1,215 @@
+{
+ "api_path": "2 Population and social processes/24 Social issues/2404-si-apf/ps-si-apf01.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:36:44+00:00",
+ "metadata": {
+  "title": "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակը, ընդամենը",
+     "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակը, արական",
+     "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակը, իգական"
+    ]
+   },
+   {
+    "code": "degree of functional limitation",
+    "text": "ըստ ֆունկցիոնալության սահմանափակման աստիճանի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3"
+    ],
+    "valueTexts": [
+     "Ֆունկցիոնալության խորը աստիճանի սահմանափակմամբ",
+     "Ֆունկցիոնալության ծանր աստիճանի սահմանափակմամբ",
+     "Ֆունկցիոնալության միջին աստիճանի սահմանափակմամբ",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "ք.Երևան",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "2023",
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակն , ըստ ցուցանիշների, ըստ ֆունկցիոնալության սահմանափակման աստիճանի, ըստ մարզերի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "degree of functional limitation",
+   "marzes",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "degree of functional limitation": {
+    "label": "ըստ ֆունկցիոնալության սահմանափակման աստիճանի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ֆունկցիոնալության խորը աստիճանի սահմանափակմամբ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ք.Երևան"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2023"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակն",
+    "description": "Ֆունկցիոնալության սահմանափակում ունեցող անձանց թվաքանակն ըստ ցուցանիշների, ֆունկցիոնալության սահմանափակման աստիճանի, մարզերի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "degree of functional limitation",
+     "marzes"
+    ],
+    "matrix": "ps-si-apf01",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

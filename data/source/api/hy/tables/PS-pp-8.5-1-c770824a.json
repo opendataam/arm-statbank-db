@@ -1,0 +1,183 @@
+{
+ "api_path": "2 Population and social processes/20 Census/PS-pp-8.5-1.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:20+00:00",
+ "metadata": {
+  "title": "Տնային տնտեսությունների քանակն ըստ",
+  "variables": [
+   {
+    "code": "settlement",
+    "text": "բնակավայր",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "ՀՀ",
+     "Քաղաք",
+     "Գյուղ"
+    ]
+   },
+   {
+    "code": "toilet facilities",
+    "text": "զուգարանային հարմարություններ",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Ողողվող զուգարան-Բնակելի միավորում, միայն տվյալ Տ/Տ օգտագործման համար",
+     "Ողողվող զուգարան-Բնակելի միավորում, այլ Տ/Տ հետ համատեղ օգտագործման համար",
+     "Ողողվող զուգարան-Բնակելի միավորից դուրս միայն տվյալ Տ/Տ  օգտագործման համար",
+     "Ողողվող զուգարան-Բնակելի միավորից դուրս, այլ Տ/Տ հետ համատեղ օգտագործման համար",
+     "Չողողվող զուգարան-Միայն տվյալ Տ/Տ օգտագործման համար",
+     "Չողողվող զուգարան-Համատեղ օգտագործման համար",
+     "Այլ",
+     "Զուգարանային հարմարությունները նշված  չեն"
+    ]
+   },
+   {
+    "code": "typehous",
+    "text": "տեսակ գույքի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Հիմնական",
+     "Բարաք/ժամանակավոր կացարան",
+     "Հասարակական նշանակության շենք/շինություն",
+     "Համատեղ բնակության շինություն",
+     "Այլ` բնակության համար հարմարեցված շինություն",
+     "Անշարժ գույքի տեսակը նշված չէ"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնային տնտեսությունների քանակն ըստ , բնակավայր, զուգարանային հարմարություններ և տեսակ գույքի",
+  "updated": "2025-09-12T08:00:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "settlement",
+   "toilet facilities",
+   "typehous"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնային տնտեսությունների քանակն ըստ"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "Տ/Տ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "settlement": {
+    "label": "բնակավայր",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ՀՀ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "toilet facilities": {
+    "label": "զուգարանային հարմարություններ",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "typehous": {
+    "label": "տեսակ գույքի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնային տնտեսությունների քանակն ըստ",
+    "description": "Տնային տնտեսությունների քանակն ըստ բնակելի միավորումում զուգարանային հարմարությունների և անշարժ գույքի տեսակի",
+    "descriptiondefault": false,
+    "heading": [
+     "typehous"
+    ],
+    "stub": [
+     "settlement",
+     "toilet facilities"
+    ],
+    "matrix": "PS-pp-8.5-1",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

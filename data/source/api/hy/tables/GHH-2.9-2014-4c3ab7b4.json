@@ -1,0 +1,200 @@
+{
+ "api_path": "6 Agriculture, forestry and fishing/61 Agricultural Census 2014/GHH-2.9-2014.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:48:12+00:00",
+ "metadata": {
+  "title": "Տնտեսություններն (01.08.2013-31.07.2014)  ըստ իրավական կարգավիճակի, մարզերի և հատիկաընդեղենային մշակաբույսերի ցանքատարածությունների չափերի",
+  "variables": [
+   {
+    "code": "legal status",
+    "text": "ըստ իրավական կարգավիճակի",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Ֆիզիկական անձի կարգավիճակով",
+     "Իրավաբանական անձի կարգավիճակով"
+    ]
+   },
+   {
+    "code": "marzes",
+    "text": "ըստ մարզերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն, ընդամենը",
+     "Արագածոտն",
+     "Արարատ",
+     "Արմավիր",
+     "Գեղարքունիք",
+     "Լոռի",
+     "Կոտայք",
+     "Շիրակ",
+     "Սյունիք",
+     "Վայոց ձոր",
+     "Տավուշ",
+     "ք. Երևան"
+    ]
+   },
+   {
+    "code": "size classes of sown areas of leguminous crops",
+    "text": "ըստ հատիկաընդեղենային մշակաբույսերի ցանքատարածությունների չափերի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13"
+    ],
+    "valueTexts": [
+     "ընդամենը",
+     "մինչև 0.1",
+     "0.1-0.19",
+     "0.2-0.49",
+     "0.5-0.99",
+     "1-1.99",
+     "2-2.99",
+     "3-4.99",
+     "5-9.99",
+     "10-19.99",
+     "20-49.99",
+     "50 -99",
+     "100-199",
+     "200 և ավելի"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Տնտեսություններն (01.08.2013-31.07.2014) , ըստ իրավական կարգավիճակի, ըստ մարզերի և ըստ հատիկաընդեղենային մշակաբույսերի ցանքատարածությունների չափերի",
+  "updated": "2017-04-11T13:24:00Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "legal status",
+   "marzes",
+   "size classes of sown areas of leguminous crops"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Տնտեսություններն (01.08.2013-31.07.2014)"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "legal status": {
+    "label": "ըստ իրավական կարգավիճակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ֆիզիկական անձի կարգավիճակով"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "marzes": {
+    "label": "ըստ մարզերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "size classes of sown areas of leguminous crops": {
+    "label": "ըստ հատիկաընդեղենային մշակաբույսերի ցանքատարածությունների չափերի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Տնտեսություններն (01.08.2013-31.07.2014)",
+    "descriptiondefault": false,
+    "heading": [
+     "size classes of sown areas of leguminous crops"
+    ],
+    "stub": [
+     "legal status",
+     "marzes"
+    ],
+    "matrix": "GHH-2.9",
+    "subject-code": "GHH",
+    "subject-area": "Գյուղատնտեսական համատարած հաշվառում"
+   }
+  }
+ }
+}

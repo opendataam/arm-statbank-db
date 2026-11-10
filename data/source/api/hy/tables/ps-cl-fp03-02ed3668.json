@@ -1,0 +1,181 @@
+{
+ "api_path": "2 Population and social processes/21 Culture/215 Film production/ps-cl-fp03.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:27:21+00:00",
+ "metadata": {
+  "title": "Ֆիլմերի քանակն 2016-2021թթ",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Ավարտված ֆիլմերի քանակը",
+     "Անավարտ ֆիլմերի քանակը"
+    ]
+   },
+   {
+    "code": "types",
+    "text": "ըստ տեսակի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "valueTexts": [
+     "Լիամետրաժ",
+     "Փաստավավերագրական",
+     "Խաղարկային վավերագրական լիամետրաժ զարգացում",
+     "Լիամետրաժ զարգացում",
+     "Կարճամետրաժ",
+     "Կարճամետրաժ դեբյուտային, ուսանողական",
+     "Անիմացիոն",
+     "Լիամետրաժ վավերագրական",
+     "Լիամետրաժ տարածում",
+     "Ընդամենը ՀՀ"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "valueTexts": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Ֆիլմերի քանակն 2016-2021թթ , ըստ ցուցանիշների, ըստ տեսակի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "types",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Ֆիլմերի քանակն 2016-2021թթ"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "միավոր",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ավարտված ֆիլմերի քանակը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "types": {
+    "label": "ըստ տեսակի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Լիամետրաժ"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2016"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Ֆիլմերի քանակն 2016-2021թթ",
+    "description": "Ֆիլմերի քանակն ըստ ցուցանիշների և տարիների 2016-2021թթ",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "types"
+    ],
+    "matrix": "ps-cl-fp03",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

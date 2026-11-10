@@ -1,0 +1,223 @@
+{
+ "api_path": "2 Population and social processes/20 Census/PS-pp-2.1.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:25:02+00:00",
+ "metadata": {
+  "title": "Բնակչությունն ըստ տարիքի, սեռի և ամուսնական կարգավիճակի",
+  "variables": [
+   {
+    "code": "RA",
+    "text": "RA",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Հայաստանի Հանրապետություն",
+     "Քաղաք",
+     "Գյուղ"
+    ]
+   },
+   {
+    "code": "Age",
+    "text": "Age",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "15-19",
+     "20-24",
+     "25-29",
+     "30-34",
+     "35-39",
+     "40-44",
+     "45-49",
+     "50-54",
+     "55-59",
+     "60-69",
+     "70+"
+    ]
+   },
+   {
+    "code": "sex",
+    "text": "Sex",
+    "values": [
+     "0",
+     "1",
+     "2"
+    ],
+    "valueTexts": [
+     "Ընդամենը",
+     "Արական",
+     "Իգական"
+    ]
+   },
+   {
+    "code": "Marital   Status",
+    "text": "Ամուսնական կարգավիճակ",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "valueTexts": [
+     "Երբևէ չամուսնացած",
+     "Ամուսնացած՝ գրանցված",
+     "Ամուսնացած՝ փաստացի",
+     "Ամուսնացած՝ միայն եկեղեցու կանոնական ծեսով",
+     "Այրի/կնակորույս",
+     "Ամուսնալուծված",
+     "Փաստացի բաժանված/չգրանցված",
+     "Չնշված"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Բնակչությունն ըստ տարիքի, սեռի և ամուսնական կարգավիճակի , RA, Age, Sex և Ամուսնական կարգավիճակ",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "RA",
+   "Age",
+   "sex",
+   "Marital   Status"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Բնակչությունն ըստ տարիքի, սեռի և ամուսնական կարգավիճակի"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "RA": {
+    "label": "RA",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Հայաստանի Հանրապետություն"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "Age": {
+    "label": "Age",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "sex": {
+    "label": "Sex",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "Marital   Status": {
+    "label": "Ամուսնական կարգավիճակ",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Երբևէ չամուսնացած"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Բնակչությունն ըստ տարիքի, սեռի և ամուսնական կարգավիճակի",
+    "description": "Բնակչությունն ըստ տարիքի, սեռի և ամուսնական կարգավիճակի",
+    "descriptiondefault": false,
+    "heading": [
+     "sex",
+     "Marital   Status"
+    ],
+    "stub": [
+     "RA",
+     "Age"
+    ],
+    "matrix": "PS-pp-2.1",
+    "subject-code": "PS",
+    "subject-area": "Բնակչության և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}

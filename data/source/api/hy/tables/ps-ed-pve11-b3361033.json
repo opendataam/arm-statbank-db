@@ -1,0 +1,165 @@
+{
+ "api_path": "2 Population and social processes/22 Education/224 Preliminary (craftsmenship) vocational education/ps-ed-pve11.px",
+ "lang": "hy",
+ "fetched": "2026-11-10T13:30:52+00:00",
+ "metadata": {
+  "title": "Ոչ պետական ուսումնական հաստատությունների հիմնական հաստիքային մանկավարժադասախոսական անձնակազմի թվաքանակն",
+  "variables": [
+   {
+    "code": "indicators",
+    "text": "ըստ ցուցանիշների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "Մանկավարժադասախոսական անձնակազմի թվաքանակը, ընդամենը",
+     "Մանկավարժադասախոսական անձնակազմի թվաքանակը, կանայք"
+    ]
+   },
+   {
+    "code": "rate",
+    "text": "ըստ դրույքի",
+    "values": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "valueTexts": [
+     "0.25 դրույքով",
+     "0.5 դրույքով",
+     "0.75 դրույքով",
+     "1 դրույքով",
+     "1-ից ավելի դրույքով",
+     "Ընդամենը"
+    ]
+   },
+   {
+    "code": "years",
+    "text": "ըստ տարիների",
+    "values": [
+     "0",
+     "1"
+    ],
+    "valueTexts": [
+     "2024",
+     "2025"
+    ]
+   }
+  ]
+ },
+ "head": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Ոչ պետական ուսումնական հաստատությունների հիմնական հաստիքային մանկավարժադասախոսական անձնակազմի թվաքանակն , ըստ ցուցանիշների, ըստ դրույքի և ըստ տարիների",
+  "updated": "9999-12-31T19:59:59Z",
+  "role": {
+   "metric": [
+    "ContentsCode"
+   ]
+  },
+  "id": [
+   "ContentsCode",
+   "indicators",
+   "rate",
+   "years"
+  ],
+  "size": [
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimension": {
+   "ContentsCode": {
+    "label": "EliminatedContents",
+    "category": {
+     "index": {
+      "EliminatedValue": 0
+     },
+     "label": {
+      "EliminatedValue": "Ոչ պետական ուսումնական հաստատությունների հիմնական հաստիքային մանկավարժադասախոսական անձնակազմի թվաքանակն"
+     },
+     "unit": {
+      "EliminatedValue": {
+       "base": "մարդ",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": true
+    }
+   },
+   "indicators": {
+    "label": "ըստ ցուցանիշների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "Մանկավարժադասախոսական անձնակազմի թվաքանակը, ընդամենը"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "rate": {
+    "label": "ըստ դրույքի",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "0.25 դրույքով"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "years": {
+    "label": "ըստ տարիների",
+    "category": {
+     "index": {
+      "0": 0
+     },
+     "label": {
+      "0": "2024"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "decimals": 0,
+    "official-statistics": false,
+    "aggregallowed": true,
+    "language": "en",
+    "contents": "Ոչ պետական ուսումնական հաստատությունների հիմնական հաստիքային մանկավարժադասախոսական անձնակազմի թվաքանակն",
+    "description": "Ոչ պետական ուսումնական հաստատությունների հիմնական հաստիքային մանկավարժադասախոսական անձնակազմի թվաքանակն ըստ ցուցանիշների, դրույքի և տարիների",
+    "descriptiondefault": false,
+    "heading": [
+     "years"
+    ],
+    "stub": [
+     "indicators",
+     "rate"
+    ],
+    "matrix": "ps-ed-pve11",
+    "subject-code": "PS",
+    "subject-area": "Բնակչություն և սոցիալական գործընթացներ"
+   }
+  }
+ }
+}
